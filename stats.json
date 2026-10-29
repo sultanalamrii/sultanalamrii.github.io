@@ -1,1 +1,12 @@
-{"updated":"","total":0,"last28":0,"countries":[]}
+{
+ "updated": "2026-10-29T19:04Z",
+ "total": 0,
+ "last28": 2,
+ "countries": [
+  {
+   "code": "SA",
+   "name": "Saudi Arabia",
+   "count": 2
+  }
+ ]
+}
