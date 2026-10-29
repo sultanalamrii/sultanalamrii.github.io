@@ -1,0 +1,761 @@
+{
+ "site": {
+  "title": "علمٌ يُقرأ، ومعرفةٌ تُثمر",
+  "author": "مؤلفات الشيخ سلطان بن عبدالله العمري",
+  "subtitle": "اكتشف المؤلفات والمراجع العلمية في تجربة قراءة رقمية سهلة ومريحة.",
+  "brandTitle": "المكتبة الرقمية",
+  "brandSub": "مؤلفات الشيخ سلطان العمري",
+  "nameArt": "assets/name.svg",
+  "allowDownload": false,
+  "counter": "",
+  "whatsapp": "966505235008",
+  "preparedDate": "2026-10-29",
+  "categories": [
+   "علمية",
+   "أسرية",
+   "تربوية",
+   "مواعظ"
+  ],
+  "theme": {
+   "preset": "sky",
+   "primary": "#0284C7",
+   "accent": "#7DD3FC",
+   "bg": "#F0F9FF",
+   "ink": "#075985",
+   "highlight": "#0284C7",
+   "light": true
+  }
+ },
+ "books": [
+  {
+   "id": "book-01",
+   "title": "البيت السعيد - مقالات متنوعة",
+   "file": "books/book-01.pdf",
+   "cover": "covers/book-01.jpg",
+   "pages": 135,
+   "date": "2024-05-11",
+   "added": "2026-10-29",
+   "category": "أسرية"
+  },
+  {
+   "id": "book-02",
+   "title": "استشارات تربوية وعلمية ودعوية",
+   "file": "books/book-02.pdf",
+   "cover": "covers/book-02.jpg",
+   "pages": 128,
+   "date": "2024-05-11",
+   "added": "2026-10-29",
+   "category": "تربوية"
+  },
+  {
+   "id": "book-03",
+   "title": "وجوب تصحيح المسار الدعوي - 20 ومضة",
+   "file": "books/book-03.pdf",
+   "cover": "covers/book-03.jpg",
+   "pages": 27,
+   "date": "2024-05-12",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-04",
+   "title": "63 مسألة في الزكاة",
+   "file": "books/book-04.pdf",
+   "cover": "covers/book-04.jpg",
+   "pages": 61,
+   "date": "2024-05-16",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-05",
+   "title": "فوائد من 20 حديث",
+   "file": "books/book-05.pdf",
+   "cover": "covers/book-05.jpg",
+   "pages": 48,
+   "date": "2024-05-21",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-06",
+   "title": "التشويق للجنة",
+   "file": "books/book-06.pdf",
+   "cover": "covers/book-06.jpg",
+   "pages": 63,
+   "date": "2024-05-18",
+   "added": "2026-10-29",
+   "category": "مواعظ"
+  },
+  {
+   "id": "book-07",
+   "title": "رسائل للمقبلين على الزواج",
+   "file": "books/book-07.pdf",
+   "cover": "covers/book-07.jpg",
+   "pages": 44,
+   "date": "2024-05-25",
+   "added": "2026-10-29",
+   "category": "أسرية"
+  },
+  {
+   "id": "book-08",
+   "title": "هل كان قرارك ناجحاً؟",
+   "file": "books/book-08.pdf",
+   "cover": "covers/book-08.jpg",
+   "pages": 23,
+   "date": "2024-05-30",
+   "added": "2026-10-29",
+   "category": "تربوية"
+  },
+  {
+   "id": "book-09",
+   "title": "42 وصية للتائبين والتائبات",
+   "file": "books/book-09.pdf",
+   "cover": "covers/book-09.jpg",
+   "pages": 25,
+   "date": "2024-06-06",
+   "added": "2026-10-29",
+   "category": "مواعظ"
+  },
+  {
+   "id": "book-10",
+   "title": "41 شكوى بين الزوجين",
+   "file": "books/book-10.pdf",
+   "cover": "covers/book-10.jpg",
+   "pages": 39,
+   "date": "2024-06-13",
+   "added": "2026-10-29",
+   "category": "أسرية"
+  },
+  {
+   "id": "book-11",
+   "title": "60 مسألة في الرقية والعين والمس والسحر",
+   "file": "books/book-11.pdf",
+   "cover": "covers/book-11.jpg",
+   "pages": 168,
+   "date": "2024-07-04",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-12",
+   "title": "المختصر في خلق المسلم",
+   "file": "books/book-12.pdf",
+   "cover": "covers/book-12.jpg",
+   "pages": 92,
+   "date": "2024-07-11",
+   "added": "2026-10-29",
+   "category": "تربوية"
+  },
+  {
+   "id": "book-13",
+   "title": "أسباب الفتور العلمي",
+   "file": "books/book-13.pdf",
+   "cover": "covers/book-13.jpg",
+   "pages": 16,
+   "date": "2024-07-15",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-14",
+   "title": "نور على طريق العلم",
+   "file": "books/book-14.pdf",
+   "cover": "covers/book-14.jpg",
+   "pages": 247,
+   "date": "2024-08-13",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-15",
+   "title": "قصص وعبر",
+   "file": "books/book-15.pdf",
+   "cover": "covers/book-15.jpg",
+   "pages": 101,
+   "date": "2024-08-17",
+   "added": "2026-10-29",
+   "category": "مواعظ"
+  },
+  {
+   "id": "book-16",
+   "title": "رسائل للبنات - قصص واستشارات ورسائل",
+   "file": "books/book-16.pdf",
+   "cover": "covers/book-16.jpg",
+   "pages": 79,
+   "date": "2024-09-05",
+   "added": "2026-10-29",
+   "category": "أسرية"
+  },
+  {
+   "id": "book-17",
+   "title": "100 مسألة في الصلاة - فضائل وأحكام وآداب",
+   "file": "books/book-17.pdf",
+   "cover": "covers/book-17.jpg",
+   "pages": 71,
+   "date": "2024-09-12",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-18",
+   "title": "100 كلمة في النجاح وعلو الهمة",
+   "file": "books/book-18.pdf",
+   "cover": "covers/book-18.jpg",
+   "pages": 51,
+   "date": "2024-09-19",
+   "added": "2026-10-29",
+   "category": "تربوية"
+  },
+  {
+   "id": "book-19",
+   "title": "مسائل متنوعة في التوحيد",
+   "file": "books/book-19.pdf",
+   "cover": "covers/book-19.jpg",
+   "pages": 139,
+   "date": "2024-09-28",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-20",
+   "title": "100 كلمة في طريق الدعوة - فضائل، آداب، توجيهات",
+   "file": "books/book-20.pdf",
+   "cover": "covers/book-20.jpg",
+   "pages": 55,
+   "date": "2024-10-03",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-21",
+   "title": "وقفات تربوية من قصة موسى والفتاتين",
+   "file": "books/book-21.pdf",
+   "cover": "covers/book-21.jpg",
+   "pages": 25,
+   "date": "2024-10-14",
+   "added": "2026-10-29",
+   "category": "تربوية"
+  },
+  {
+   "id": "book-22",
+   "title": "كلمات في طلب العلم - فضائل، وصايا، خواطر، آداب",
+   "file": "books/book-22.pdf",
+   "cover": "covers/book-22.jpg",
+   "pages": 45,
+   "date": "2024-10-17",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-23",
+   "title": "72 مسألة في الحديث النبوي",
+   "file": "books/book-23.pdf",
+   "cover": "covers/book-23.jpg",
+   "pages": 62,
+   "date": "2024-10-25",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-24",
+   "title": "100 مسألة للمرأة - مسائل فقهية، توجيهات تربوية",
+   "file": "books/book-24.pdf",
+   "cover": "covers/book-24.jpg",
+   "pages": 71,
+   "date": "2024-10-31",
+   "added": "2026-10-29",
+   "category": "أسرية"
+  },
+  {
+   "id": "book-25",
+   "title": "28 قاعدة في تنمية الملكة الفقهية",
+   "file": "books/book-25.pdf",
+   "cover": "covers/book-25.jpg",
+   "pages": 31,
+   "date": "2024-11-14",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-26",
+   "title": "95 مسألة تتعلق بعلوم القرآن",
+   "file": "books/book-26.pdf",
+   "cover": "covers/book-26.jpg",
+   "pages": 87,
+   "date": "2024-11-28",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-27",
+   "title": "أنا وأنت نحب القراءة",
+   "file": "books/book-27.pdf",
+   "cover": "covers/book-27.jpg",
+   "pages": 40,
+   "date": "2024-12-12",
+   "added": "2026-10-29",
+   "category": "تربوية"
+  },
+  {
+   "id": "book-28",
+   "title": "جراحات في البيوت",
+   "file": "books/book-28.pdf",
+   "cover": "covers/book-28.jpg",
+   "pages": 259,
+   "date": "2024-12-31",
+   "added": "2026-10-29",
+   "category": "أسرية"
+  },
+  {
+   "id": "book-29",
+   "title": "100 كلمة في تربية الأبناء والبنات",
+   "file": "books/book-29.pdf",
+   "cover": "covers/book-29.jpg",
+   "pages": 104,
+   "date": "2025-01-10",
+   "added": "2026-10-29",
+   "category": "أسرية"
+  },
+  {
+   "id": "book-30",
+   "title": "مختارات من كتاب صيد الخاطر لابن الجوزي في العلم والدعوة",
+   "file": "books/book-30.pdf",
+   "cover": "covers/book-30.jpg",
+   "pages": 33,
+   "date": "2025-01-25",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-31",
+   "title": "رسائل رمضانية",
+   "file": "books/book-31.pdf",
+   "cover": "covers/book-31.jpg",
+   "pages": 117,
+   "date": "2025-02-10",
+   "added": "2026-10-29",
+   "category": "مواعظ"
+  },
+  {
+   "id": "book-32",
+   "title": "نور على طريق الحياة",
+   "file": "books/book-32.pdf",
+   "cover": "covers/book-32.jpg",
+   "pages": 102,
+   "date": "2025-03-07",
+   "added": "2026-10-29",
+   "category": "تربوية"
+  },
+  {
+   "id": "book-33",
+   "title": "100 كلمة للأسرة - وصايا، خواطر، آداب",
+   "file": "books/book-33.pdf",
+   "cover": "covers/book-33.jpg",
+   "pages": 75,
+   "date": "2025-01-15",
+   "added": "2026-10-29",
+   "category": "أسرية"
+  },
+  {
+   "id": "book-34",
+   "title": "تعال بنا نؤمن ساعة - مقالات تزيد الإيمان",
+   "file": "books/book-34.pdf",
+   "cover": "covers/book-34.jpg",
+   "pages": 106,
+   "date": "2025-03-20",
+   "added": "2026-10-29",
+   "category": "مواعظ"
+  },
+  {
+   "id": "book-35",
+   "title": "23 وصية في إدارة الميزانية المالية للأسرة",
+   "file": "books/book-35.pdf",
+   "cover": "covers/book-35.jpg",
+   "pages": 30,
+   "date": "2025-04-24",
+   "added": "2026-10-29",
+   "category": "أسرية"
+  },
+  {
+   "id": "book-36",
+   "title": "قواعد اختيار الزوجين",
+   "file": "books/book-36.pdf",
+   "cover": "covers/book-36.jpg",
+   "pages": 38,
+   "date": "2025-05-10",
+   "added": "2026-10-29",
+   "category": "أسرية"
+  },
+  {
+   "id": "book-37",
+   "title": "فوائد من كتب ابن تيمية رحمه الله - المجموعة الأولى",
+   "file": "books/book-37.pdf",
+   "cover": "covers/book-37.jpg",
+   "pages": 83,
+   "date": "2025-06-01",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-38",
+   "title": "27 استشارة أسرية",
+   "file": "books/book-38.pdf",
+   "cover": "covers/book-38.jpg",
+   "pages": 208,
+   "date": "2025-07-01",
+   "added": "2026-10-29",
+   "category": "أسرية"
+  },
+  {
+   "id": "book-39",
+   "title": "فوائد من 100 حديث في أبواب متنوعة",
+   "file": "books/book-39.pdf",
+   "cover": "covers/book-39.jpg",
+   "pages": 237,
+   "date": "2025-08-03",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-40",
+   "title": "تعلمت من الحياة",
+   "file": "books/book-40.pdf",
+   "cover": "covers/book-40.jpg",
+   "pages": 229,
+   "date": "2025-08-30",
+   "added": "2026-10-29",
+   "category": "تربوية"
+  },
+  {
+   "id": "book-41",
+   "title": "100 كلمة في الحسنات والسيئات",
+   "file": "books/book-41.pdf",
+   "cover": "covers/book-41.jpg",
+   "pages": 134,
+   "date": "2025-09-30",
+   "added": "2026-10-29",
+   "category": "مواعظ"
+  },
+  {
+   "id": "book-42",
+   "title": "50 فائدة من كلام ابن القيم رحمه الله",
+   "file": "books/book-42.pdf",
+   "cover": "covers/book-42.jpg",
+   "pages": 75,
+   "date": "2025-10-25",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-43",
+   "title": "15 فضيلة للدعوة والدعاة",
+   "file": "books/book-43.pdf",
+   "cover": "covers/book-43.jpg",
+   "pages": 17,
+   "date": "2025-11-03",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-44",
+   "title": "43 قصة من حياة الصحابة والعلماء",
+   "file": "books/book-44.pdf",
+   "cover": "covers/book-44.jpg",
+   "pages": 136,
+   "date": "2025-11-26",
+   "added": "2026-10-29",
+   "category": "تربوية"
+  },
+  {
+   "id": "book-45",
+   "title": "112 كلمة في المال",
+   "file": "books/book-45.pdf",
+   "cover": "covers/book-45.jpg",
+   "pages": 115,
+   "date": "2025-12-28",
+   "added": "2026-10-29",
+   "category": "تربوية"
+  },
+  {
+   "id": "book-46",
+   "title": "تأملات قرآنية",
+   "file": "books/book-46.pdf",
+   "cover": "covers/book-46.jpg",
+   "pages": 142,
+   "date": "2026-01-28",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-47",
+   "title": "30 وصية رمضانية",
+   "file": "books/book-47.pdf",
+   "cover": "covers/book-47.jpg",
+   "pages": 21,
+   "date": "2026-02-17",
+   "added": "2026-10-29",
+   "category": "مواعظ"
+  },
+  {
+   "id": "book-48",
+   "title": "40 خطأً يقع فيها بعض الناس في شهر رمضان",
+   "file": "books/book-48.pdf",
+   "cover": "covers/book-48.jpg",
+   "pages": 25,
+   "date": "2026-02-18",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-49",
+   "title": "نور على طريق الدعوة",
+   "file": "books/book-49.pdf",
+   "cover": "covers/book-49.jpg",
+   "pages": 347,
+   "date": "2026-03-08",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-50",
+   "title": "مائة كلمة في الصبر",
+   "file": "books/book-50.pdf",
+   "cover": "covers/book-50.jpg",
+   "pages": 63,
+   "date": "2026-03-26",
+   "added": "2026-10-29",
+   "category": "مواعظ"
+  },
+  {
+   "id": "book-51",
+   "title": "18 قاعدة في التعامل مع المصائب",
+   "file": "books/book-51.pdf",
+   "cover": "covers/book-51.jpg",
+   "pages": 11,
+   "date": "2026-04-13",
+   "added": "2026-10-29",
+   "category": "مواعظ"
+  },
+  {
+   "id": "book-52",
+   "title": "كيف نربي البنات على العفاف والستر؟",
+   "file": "books/book-52.pdf",
+   "cover": "covers/book-52.jpg",
+   "pages": 12,
+   "date": "2026-04-12",
+   "added": "2026-10-29",
+   "category": "أسرية"
+  },
+  {
+   "id": "book-53",
+   "title": "27 وسيلة في التعامل مع أخطاء المراهقين",
+   "file": "books/book-53.pdf",
+   "cover": "covers/book-53.jpg",
+   "pages": 17,
+   "date": "2026-04-13",
+   "added": "2026-10-29",
+   "category": "أسرية"
+  },
+  {
+   "id": "book-54",
+   "title": "36 كلمة في الأمل",
+   "file": "books/book-54.pdf",
+   "cover": "covers/book-54.jpg",
+   "pages": 20,
+   "date": "2026-04-27",
+   "added": "2026-10-29",
+   "category": "مواعظ"
+  },
+  {
+   "id": "book-56",
+   "title": "17 قاعدة في إدارة المشكلات",
+   "file": "books/book-56.pdf",
+   "cover": "covers/book-56.jpg",
+   "pages": 34,
+   "date": "2026-05-07",
+   "added": "2026-10-29",
+   "category": "تربوية"
+  },
+  {
+   "id": "book-57",
+   "title": "35 نداءً لطالب التحفيظ",
+   "file": "books/book-57.pdf",
+   "cover": "covers/book-57.jpg",
+   "pages": 18,
+   "date": "2026-05-13",
+   "added": "2026-10-29",
+   "category": "تربوية"
+  },
+  {
+   "id": "book-58",
+   "title": "رسائل إلى إمام المسجد",
+   "file": "books/book-58.pdf",
+   "cover": "covers/book-58.jpg",
+   "pages": 34,
+   "date": "2026-05-23",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-59",
+   "title": "حتى تكون متحدثاً متميزاً",
+   "file": "books/book-59.pdf",
+   "cover": "covers/book-59.jpg",
+   "pages": 29,
+   "date": "2026-05-29",
+   "added": "2026-10-29",
+   "category": "تربوية"
+  },
+  {
+   "id": "book-60",
+   "title": "42 كلمة لشباب الاستقامة",
+   "file": "books/book-60.pdf",
+   "cover": "covers/book-60.jpg",
+   "pages": 25,
+   "date": "2026-06-12",
+   "added": "2026-10-29",
+   "category": "تربوية"
+  },
+  {
+   "id": "book-61",
+   "title": "72 كلمة في استغلال الأوقات",
+   "file": "books/book-61.pdf",
+   "cover": "covers/book-61.jpg",
+   "pages": 74,
+   "date": "2026-06-25",
+   "added": "2026-10-29",
+   "category": "تربوية"
+  },
+  {
+   "id": "book-62",
+   "title": "64 مسألة في البدع والمبتدعة",
+   "file": "books/book-62.pdf",
+   "cover": "covers/book-62.jpg",
+   "pages": 69,
+   "date": "2026-07-09",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-63",
+   "title": "146 كلمة في النعيم النفسي",
+   "file": "books/book-63.pdf",
+   "cover": "covers/book-63.jpg",
+   "pages": 112,
+   "date": "2026-07-22",
+   "added": "2026-10-29",
+   "category": "تربوية"
+  },
+  {
+   "id": "book-64",
+   "title": "قصص رواها النبي ﷺ",
+   "file": "books/book-64.pdf",
+   "cover": "covers/book-64.jpg",
+   "pages": 50,
+   "date": "2026-08-18",
+   "added": "2026-10-29",
+   "category": "مواعظ"
+  },
+  {
+   "id": "book-65",
+   "title": "أقربكم مني مجلساً - جولة في رياض الأخلاق",
+   "file": "books/book-65.pdf",
+   "cover": "covers/book-65.jpg",
+   "pages": 204,
+   "date": "2026-08-20",
+   "added": "2026-10-29",
+   "category": "تربوية"
+  },
+  {
+   "id": "book-66",
+   "title": "27 وصية للمعلمين والمعلمات",
+   "file": "books/book-66.pdf",
+   "cover": "covers/book-66.jpg",
+   "pages": 30,
+   "date": "2026-08-31",
+   "added": "2026-10-29",
+   "category": "تربوية"
+  },
+  {
+   "id": "book-67",
+   "title": "31 خطأ في الوضوء والاغتسال",
+   "file": "books/book-67.pdf",
+   "cover": "covers/book-67.jpg",
+   "pages": 29,
+   "date": "2026-09-03",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-68",
+   "title": "50 فائدة من بطون الكتب - الجزء الأول",
+   "file": "books/book-68.pdf",
+   "cover": "covers/book-68.jpg",
+   "pages": 53,
+   "date": "2026-09-10",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-69",
+   "title": "كلمات إلى خطيب الجمعة",
+   "file": "books/book-69.pdf",
+   "cover": "covers/book-69.jpg",
+   "pages": 21,
+   "date": "2026-09-17",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-70",
+   "title": "79 فائدة من كتاب الجواب الكافي",
+   "file": "books/book-70.pdf",
+   "cover": "covers/book-70.jpg",
+   "pages": 100,
+   "date": "2026-09-26",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-71",
+   "title": "76 خطأ يقع فيه بعض الناس في الصلاة",
+   "file": "books/book-71.pdf",
+   "cover": "covers/book-71.jpg",
+   "pages": 20,
+   "date": "2026-10-01",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-72",
+   "title": "37 فائدة من كتاب تذكرة السامع والمتكلم",
+   "file": "books/book-72.pdf",
+   "cover": "covers/book-72.jpg",
+   "pages": 45,
+   "date": "2026-10-08",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-73",
+   "title": "مواقف من حياة الإمام أبي حنيفة رحمه الله تعالى",
+   "file": "books/book-73.pdf",
+   "cover": "covers/book-73.jpg",
+   "pages": 28,
+   "date": "2026-10-17",
+   "added": "2026-10-29",
+   "category": "علمية"
+  },
+  {
+   "id": "book-74",
+   "title": "تأملات من حياة الإمام مالك رحمه الله تعالى",
+   "file": "books/book-74.pdf",
+   "cover": "covers/book-74.jpg",
+   "pages": 43,
+   "date": "2026-10-21",
+   "added": "2026-10-29",
+   "category": "علمية"
+  }
+ ]
+}
