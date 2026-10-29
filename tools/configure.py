@@ -32,6 +32,28 @@ def block(with_url):
     if with_url: t.append(f'<link rel="canonical" href="{BASE}">')
     t.append('<!-- SHARE:END -->'); return "\n".join(t)
 
+# 0) الهوية اللونية مكتوبة داخل الصفحات حتى تظهر من أول لحظة (بدل وميض الهوية الافتراضية في أول زيارة)
+theme_css = ""
+if site.get("theme"):
+    try:
+        from playwright.sync_api import sync_playwright
+        with sync_playwright() as pw:
+            br = pw.chromium.launch(); pg = br.new_page()
+            pg.set_content("<html><head></head><body></body></html>")
+            pg.add_script_tag(content=(ROOT / "assets/common.js").read_text(encoding="utf-8"))
+            theme_css = pg.evaluate("t => Lib.themeCss(t)", site["theme"]); br.close()
+    except Exception as ex:
+        print("⚠ تعذّر حساب ألوان الهوية:", ex)
+for name in ("index.html", "read.html", "admin.html"):
+    p = ROOT / name; s = p.read_text(encoding="utf-8")
+    blk = "<!-- THEME:START (يُولَّد تلقائياً: python3 tools/configure.py) -->" + (f'<style id="lib-theme">{theme_css}</style>' if theme_css else "") + "<!-- THEME:END -->"
+    s, n = re.subn(r"<!-- THEME:START.*?<!-- THEME:END -->", lambda m: blk, s, flags=re.S)
+    if n:
+        if theme_css:
+            prim = re.search(r"--t-primary:(#[0-9a-f]{6})", theme_css).group(1); stage = re.search(r"--t-stage:(#[0-9a-f]{6})", theme_css).group(1)
+            s = re.sub(r'<meta name="theme-color" content="#[0-9a-fA-F]{6}">', f'<meta name="theme-color" content="{stage if name == "read.html" else prim}">', s)
+        p.write_text(s, encoding="utf-8"); print("✓ الهوية داخل الصفحة:", name)
+
 for name, with_url in (("index.html", True), ("read.html", False)):
     p = ROOT / name; s = p.read_text(encoding="utf-8")
     s, n = re.subn(r"<!-- SHARE:START.*?<!-- SHARE:END -->", lambda m: block(with_url), s, flags=re.S)
