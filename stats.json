@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-30T20:52Z",
- "total": 187,
- "last28": 187,
+ "updated": "2026-10-30T21:48Z",
+ "total": 188,
+ "last28": 188,
  "countries": [
   {
    "code": "SA",
@@ -21,7 +21,7 @@
   {
    "code": "DZ",
    "name": "Algeria",
-   "count": 8
+   "count": 9
   },
   {
    "code": "EG",
