@@ -1,22 +1,32 @@
 {
- "updated": "2026-10-30T03:57Z",
- "total": 98,
- "last28": 98,
+ "updated": "2026-10-30T04:56Z",
+ "total": 116,
+ "last28": 116,
  "countries": [
   {
    "code": "SA",
    "name": "Saudi Arabia",
-   "count": 58
+   "count": 64
   },
   {
    "code": "KW",
    "name": "Kuwait",
-   "count": 17
+   "count": 18
+  },
+  {
+   "code": "KZ",
+   "name": "Kazakhstan",
+   "count": 6
   },
   {
    "code": "MV",
    "name": "Maldives",
    "count": 6
+  },
+  {
+   "code": "EG",
+   "name": "Egypt",
+   "count": 3
   },
   {
    "code": "SE",
@@ -29,13 +39,13 @@
    "count": 3
   },
   {
-   "code": "DZ",
-   "name": "Algeria",
-   "count": 2
+   "code": "YE",
+   "name": "Yemen",
+   "count": 3
   },
   {
-   "code": "EG",
-   "name": "Egypt",
+   "code": "DZ",
+   "name": "Algeria",
    "count": 2
   },
   {
@@ -51,6 +61,11 @@
   {
    "code": "IQ",
    "name": "Iraq",
+   "count": 1
+  },
+  {
+   "code": "IR",
+   "name": "Iran",
    "count": 1
   },
   {
