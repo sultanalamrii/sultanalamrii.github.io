@@ -1,17 +1,17 @@
 {
- "updated": "2026-10-30T09:59Z",
- "total": 138,
- "last28": 138,
+ "updated": "2026-10-30T10:55Z",
+ "total": 150,
+ "last28": 150,
  "countries": [
   {
    "code": "SA",
    "name": "Saudi Arabia",
-   "count": 79
+   "count": 89
   },
   {
    "code": "KW",
    "name": "Kuwait",
-   "count": 19
+   "count": 21
   },
   {
    "code": "KZ",
