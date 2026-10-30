@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-29T23:47Z",
- "total": 57,
- "last28": 57,
+ "updated": "2026-10-30T02:06Z",
+ "total": 60,
+ "last28": 60,
  "countries": [
   {
    "code": "SA",
    "name": "Saudi Arabia",
-   "count": 42
+   "count": 44
   },
   {
    "code": "SE",
@@ -36,6 +36,11 @@
   {
    "code": "EG",
    "name": "Egypt",
+   "count": 1
+  },
+  {
+   "code": "IQ",
+   "name": "Iraq",
    "count": 1
   },
   {
