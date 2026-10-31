@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-31T02:56Z",
- "total": 195,
- "last28": 195,
+ "updated": "2026-10-31T08:53Z",
+ "total": 202,
+ "last28": 202,
  "countries": [
   {
    "code": "SA",
    "name": "Saudi Arabia",
-   "count": 117
+   "count": 120
   },
   {
    "code": "KW",
@@ -14,14 +14,14 @@
    "count": 25
   },
   {
+   "code": "DZ",
+   "name": "Algeria",
+   "count": 13
+  },
+  {
    "code": "MV",
    "name": "Maldives",
    "count": 10
-  },
-  {
-   "code": "DZ",
-   "name": "Algeria",
-   "count": 9
   },
   {
    "code": "EG",
