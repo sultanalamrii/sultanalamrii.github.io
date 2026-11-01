@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-01T08:06Z",
- "total": 228,
- "last28": 228,
+ "updated": "2026-11-01T09:53Z",
+ "total": 232,
+ "last28": 232,
  "countries": [
   {
    "code": "SA",
    "name": "Saudi Arabia",
-   "count": 141
+   "count": 143
   },
   {
    "code": "KW",
@@ -39,6 +39,11 @@
    "count": 5
   },
   {
+   "code": "AF",
+   "name": "Afghanistan",
+   "count": 3
+  },
+  {
    "code": "SE",
    "name": "Sweden",
    "count": 3
@@ -67,11 +72,6 @@
    "code": "PH",
    "name": "Philippines",
    "count": 2
-  },
-  {
-   "code": "AF",
-   "name": "Afghanistan",
-   "count": 1
   },
   {
    "code": "IR",
