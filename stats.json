@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-01T05:53Z",
- "total": 226,
- "last28": 226,
+ "updated": "2026-11-01T07:10Z",
+ "total": 227,
+ "last28": 227,
  "countries": [
   {
    "code": "SA",
@@ -49,6 +49,11 @@
    "count": 3
   },
   {
+   "code": "FR",
+   "name": "France",
+   "count": 2
+  },
+  {
    "code": "IQ",
    "name": "Iraq",
    "count": 2
@@ -66,11 +71,6 @@
   {
    "code": "AF",
    "name": "Afghanistan",
-   "count": 1
-  },
-  {
-   "code": "FR",
-   "name": "France",
    "count": 1
   },
   {
