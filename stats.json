@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-01T13:53Z",
- "total": 235,
- "last28": 235,
+ "updated": "2026-11-01T15:45Z",
+ "total": 245,
+ "last28": 245,
  "countries": [
   {
    "code": "SA",
@@ -16,6 +16,11 @@
   {
    "code": "DZ",
    "name": "Algeria",
+   "count": 13
+  },
+  {
+   "code": "YE",
+   "name": "Yemen",
    "count": 13
   },
   {
@@ -46,11 +51,6 @@
   {
    "code": "SE",
    "name": "Sweden",
-   "count": 3
-  },
-  {
-   "code": "YE",
-   "name": "Yemen",
    "count": 3
   },
   {
