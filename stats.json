@@ -1,17 +1,17 @@
 {
- "updated": "2026-11-03T13:15Z",
- "total": 343,
- "last28": 343,
+ "updated": "2026-11-03T14:25Z",
+ "total": 348,
+ "last28": 348,
  "countries": [
   {
    "code": "SA",
    "name": "Saudi Arabia",
-   "count": 191
+   "count": 192
   },
   {
    "code": "EG",
    "name": "Egypt",
-   "count": 32
+   "count": 33
   },
   {
    "code": "KW",
@@ -44,6 +44,16 @@
    "count": 6
   },
   {
+   "code": "NL",
+   "name": "Netherlands",
+   "count": 4
+  },
+  {
+   "code": "AE",
+   "name": "United Arab Emirates",
+   "count": 3
+  },
+  {
    "code": "AF",
    "name": "Afghanistan",
    "count": 3
@@ -59,11 +69,6 @@
    "count": 3
   },
   {
-   "code": "AE",
-   "name": "United Arab Emirates",
-   "count": 2
-  },
-  {
    "code": "FR",
    "name": "France",
    "count": 2
@@ -71,11 +76,6 @@
   {
    "code": "IQ",
    "name": "Iraq",
-   "count": 2
-  },
-  {
-   "code": "NL",
-   "name": "Netherlands",
    "count": 2
   },
   {
