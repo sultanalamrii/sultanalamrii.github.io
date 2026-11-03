@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-03T04:00Z",
- "total": 283,
- "last28": 283,
+ "updated": "2026-11-03T06:02Z",
+ "total": 294,
+ "last28": 294,
  "countries": [
   {
    "code": "SA",
    "name": "Saudi Arabia",
-   "count": 171
+   "count": 173
   },
   {
    "code": "KW",
@@ -16,7 +16,7 @@
   {
    "code": "EG",
    "name": "Egypt",
-   "count": 15
+   "count": 20
   },
   {
    "code": "YE",
@@ -46,6 +46,11 @@
   {
    "code": "AF",
    "name": "Afghanistan",
+   "count": 3
+  },
+  {
+   "code": "ID",
+   "name": "Indonesia",
    "count": 3
   },
   {
@@ -91,6 +96,11 @@
   {
    "code": "SO",
    "name": "Somalia",
+   "count": 1
+  },
+  {
+   "code": "TG",
+   "name": "Togo",
    "count": 1
   },
   {
