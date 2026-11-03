@@ -1,0 +1,91 @@
+# المكتبة الرقمية لمؤلفات الشيخ سلطان العمري — الشيخ سلطان بن عبدالله العمري
+
+> اكتشف المؤلفات والمراجع العلمية في تجربة قراءة رقمية سهلة ومريحة — الشيخ سلطان بن عبدالله العمري، فيها ٧٣ كتاباً باللغة العربية.
+> تُقرأ الكتب مجاناً على الموقع بتقليب الصفحات؛ ولكل كتاب صفحة فيها بياناته ورابط قراءته.
+
+- الموقع: https://sultanalamrii.github.io/
+
+## علمية
+
+- [وجوب تصحيح المسار الدعوي - 20 ومضة](https://sultanalamrii.github.io/kitab/book-03.html): علمية، ٢٧ صفحة
+- [63 مسألة في الزكاة](https://sultanalamrii.github.io/kitab/book-04.html): علمية، ٦١ صفحة
+- [فوائد من 20 حديث](https://sultanalamrii.github.io/kitab/book-05.html): علمية، ٤٨ صفحة
+- [60 مسألة في الرقية والعين والمس والسحر](https://sultanalamrii.github.io/kitab/book-11.html): علمية، ١٦٨ صفحة
+- [أسباب الفتور العلمي](https://sultanalamrii.github.io/kitab/book-13.html): علمية، ١٦ صفحة
+- [نور على طريق العلم](https://sultanalamrii.github.io/kitab/book-14.html): علمية، ٢٤٧ صفحة
+- [100 مسألة في الصلاة - فضائل وأحكام وآداب](https://sultanalamrii.github.io/kitab/book-17.html): علمية، ٧١ صفحة
+- [مسائل متنوعة في التوحيد](https://sultanalamrii.github.io/kitab/book-19.html): علمية، ١٣٩ صفحة
+- [100 كلمة في طريق الدعوة - فضائل، آداب، توجيهات](https://sultanalamrii.github.io/kitab/book-20.html): علمية، ٥٥ صفحة
+- [كلمات في طلب العلم - فضائل، وصايا، خواطر، آداب](https://sultanalamrii.github.io/kitab/book-22.html): علمية، ٤٥ صفحة
+- [72 مسألة في الحديث النبوي](https://sultanalamrii.github.io/kitab/book-23.html): علمية، ٦٢ صفحة
+- [28 قاعدة في تنمية الملكة الفقهية](https://sultanalamrii.github.io/kitab/book-25.html): علمية، ٣١ صفحة
+- [95 مسألة تتعلق بعلوم القرآن](https://sultanalamrii.github.io/kitab/book-26.html): علمية، ٨٧ صفحة
+- [مختارات من كتاب صيد الخاطر لابن الجوزي في العلم والدعوة](https://sultanalamrii.github.io/kitab/book-30.html): علمية، ٣٣ صفحة
+- [فوائد من كتب ابن تيمية رحمه الله - المجموعة الأولى](https://sultanalamrii.github.io/kitab/book-37.html): علمية، ٨٣ صفحة
+- [فوائد من 100 حديث في أبواب متنوعة](https://sultanalamrii.github.io/kitab/book-39.html): علمية، ٢٣٧ صفحة
+- [50 فائدة من كلام ابن القيم رحمه الله](https://sultanalamrii.github.io/kitab/book-42.html): علمية، ٧٥ صفحة
+- [15 فضيلة للدعوة والدعاة](https://sultanalamrii.github.io/kitab/book-43.html): علمية، ١٧ صفحة
+- [تأملات قرآنية](https://sultanalamrii.github.io/kitab/book-46.html): علمية، ١٤٢ صفحة
+- [40 خطأً يقع فيها بعض الناس في شهر رمضان](https://sultanalamrii.github.io/kitab/book-48.html): علمية، ٢٥ صفحة
+- [نور على طريق الدعوة](https://sultanalamrii.github.io/kitab/book-49.html): علمية، ٣٤٧ صفحة
+- [رسائل إلى إمام المسجد](https://sultanalamrii.github.io/kitab/book-58.html): علمية، ٣٤ صفحة
+- [64 مسألة في البدع والمبتدعة](https://sultanalamrii.github.io/kitab/book-62.html): علمية، ٦٩ صفحة
+- [31 خطأ في الوضوء والاغتسال](https://sultanalamrii.github.io/kitab/book-67.html): علمية، ٢٩ صفحة
+- [50 فائدة من بطون الكتب - الجزء الأول](https://sultanalamrii.github.io/kitab/book-68.html): علمية، ٥٣ صفحة
+- [كلمات إلى خطيب الجمعة](https://sultanalamrii.github.io/kitab/book-69.html): علمية، ٢١ صفحة
+- [79 فائدة من كتاب الجواب الكافي](https://sultanalamrii.github.io/kitab/book-70.html): علمية، ١٠٠ صفحة
+- [76 خطأ يقع فيه بعض الناس في الصلاة](https://sultanalamrii.github.io/kitab/book-71.html): علمية، ٢٠ صفحة
+- [37 فائدة من كتاب تذكرة السامع والمتكلم](https://sultanalamrii.github.io/kitab/book-72.html): علمية، ٤٥ صفحة
+- [مواقف من حياة الإمام أبي حنيفة رحمه الله تعالى](https://sultanalamrii.github.io/kitab/book-73.html): علمية، ٢٨ صفحة
+- [تأملات من حياة الإمام مالك رحمه الله تعالى](https://sultanalamrii.github.io/kitab/book-74.html): علمية، ٤٣ صفحة
+
+## أسرية
+
+- [البيت السعيد - مقالات متنوعة](https://sultanalamrii.github.io/kitab/book-01.html): أسرية، ١٣٥ صفحة
+- [رسائل للمقبلين على الزواج](https://sultanalamrii.github.io/kitab/book-07.html): أسرية، ٤٤ صفحة
+- [41 شكوى بين الزوجين](https://sultanalamrii.github.io/kitab/book-10.html): أسرية، ٣٩ صفحة
+- [رسائل للبنات - قصص واستشارات ورسائل](https://sultanalamrii.github.io/kitab/book-16.html): أسرية، ٧٩ صفحة
+- [100 مسألة للمرأة - مسائل فقهية، توجيهات تربوية](https://sultanalamrii.github.io/kitab/book-24.html): أسرية، ٧١ صفحة
+- [جراحات في البيوت](https://sultanalamrii.github.io/kitab/book-28.html): أسرية، ٢٥٩ صفحة
+- [100 كلمة في تربية الأبناء والبنات](https://sultanalamrii.github.io/kitab/book-29.html): أسرية، ١٠٤ صفحات
+- [100 كلمة للأسرة - وصايا، خواطر، آداب](https://sultanalamrii.github.io/kitab/book-33.html): أسرية، ٧٥ صفحة
+- [23 وصية في إدارة الميزانية المالية للأسرة](https://sultanalamrii.github.io/kitab/book-35.html): أسرية، ٣٠ صفحة
+- [قواعد اختيار الزوجين](https://sultanalamrii.github.io/kitab/book-36.html): أسرية، ٣٨ صفحة
+- [27 استشارة أسرية](https://sultanalamrii.github.io/kitab/book-38.html): أسرية، ٢٠٨ صفحات
+- [كيف نربي البنات على العفاف والستر؟](https://sultanalamrii.github.io/kitab/book-52.html): أسرية، ١٢ صفحة
+- [27 وسيلة في التعامل مع أخطاء المراهقين](https://sultanalamrii.github.io/kitab/book-53.html): أسرية، ١٧ صفحة
+
+## تربوية
+
+- [استشارات تربوية وعلمية ودعوية](https://sultanalamrii.github.io/kitab/book-02.html): تربوية، ١٢٨ صفحة
+- [هل كان قرارك ناجحاً؟](https://sultanalamrii.github.io/kitab/book-08.html): تربوية، ٢٣ صفحة
+- [المختصر في خلق المسلم](https://sultanalamrii.github.io/kitab/book-12.html): تربوية، ٩٢ صفحة
+- [100 كلمة في النجاح وعلو الهمة](https://sultanalamrii.github.io/kitab/book-18.html): تربوية، ٥١ صفحة
+- [وقفات تربوية من قصة موسى والفتاتين](https://sultanalamrii.github.io/kitab/book-21.html): تربوية، ٢٥ صفحة
+- [أنا وأنت نحب القراءة](https://sultanalamrii.github.io/kitab/book-27.html): تربوية، ٤٠ صفحة
+- [نور على طريق الحياة](https://sultanalamrii.github.io/kitab/book-32.html): تربوية، ١٠٢ صفحة
+- [تعلمت من الحياة](https://sultanalamrii.github.io/kitab/book-40.html): تربوية، ٢٢٩ صفحة
+- [43 قصة من حياة الصحابة والعلماء](https://sultanalamrii.github.io/kitab/book-44.html): تربوية، ١٣٦ صفحة
+- [112 كلمة في المال](https://sultanalamrii.github.io/kitab/book-45.html): تربوية، ١١٥ صفحة
+- [17 قاعدة في إدارة المشكلات](https://sultanalamrii.github.io/kitab/book-56.html): تربوية، ٣٤ صفحة
+- [35 نداءً لطالب التحفيظ](https://sultanalamrii.github.io/kitab/book-57.html): تربوية، ١٨ صفحة
+- [حتى تكون متحدثاً متميزاً](https://sultanalamrii.github.io/kitab/book-59.html): تربوية، ٢٩ صفحة
+- [42 كلمة لشباب الاستقامة](https://sultanalamrii.github.io/kitab/book-60.html): تربوية، ٢٥ صفحة
+- [72 كلمة في استغلال الأوقات](https://sultanalamrii.github.io/kitab/book-61.html): تربوية، ٧٤ صفحة
+- [146 كلمة في النعيم النفسي](https://sultanalamrii.github.io/kitab/book-63.html): تربوية، ١١٢ صفحة
+- [أقربكم مني مجلساً - جولة في رياض الأخلاق](https://sultanalamrii.github.io/kitab/book-65.html): تربوية، ٢٠٤ صفحات
+- [27 وصية للمعلمين والمعلمات](https://sultanalamrii.github.io/kitab/book-66.html): تربوية، ٣٠ صفحة
+
+## مواعظ
+
+- [التشويق للجنة](https://sultanalamrii.github.io/kitab/book-06.html): مواعظ، ٦٣ صفحة
+- [42 وصية للتائبين والتائبات](https://sultanalamrii.github.io/kitab/book-09.html): مواعظ، ٢٥ صفحة
+- [قصص وعبر](https://sultanalamrii.github.io/kitab/book-15.html): مواعظ، ١٠١ صفحة
+- [رسائل رمضانية](https://sultanalamrii.github.io/kitab/book-31.html): مواعظ، ١١٧ صفحة
+- [تعال بنا نؤمن ساعة - مقالات تزيد الإيمان](https://sultanalamrii.github.io/kitab/book-34.html): مواعظ، ١٠٦ صفحات
+- [100 كلمة في الحسنات والسيئات](https://sultanalamrii.github.io/kitab/book-41.html): مواعظ، ١٣٤ صفحة
+- [30 وصية رمضانية](https://sultanalamrii.github.io/kitab/book-47.html): مواعظ، ٢١ صفحة
+- [مائة كلمة في الصبر](https://sultanalamrii.github.io/kitab/book-50.html): مواعظ، ٦٣ صفحة
+- [18 قاعدة في التعامل مع المصائب](https://sultanalamrii.github.io/kitab/book-51.html): مواعظ، ١١ صفحة
+- [36 كلمة في الأمل](https://sultanalamrii.github.io/kitab/book-54.html): مواعظ، ٢٠ صفحة
+- [قصص رواها النبي ﷺ](https://sultanalamrii.github.io/kitab/book-64.html): مواعظ، ٥٠ صفحة
