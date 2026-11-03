@@ -324,3 +324,7 @@
 .hero h1 .au.has-art .name-art{height:clamp(64px,7vw,104px);color:var(--t-highlight)}
 @media (max-width:900px){.hero h1 .au.has-art .name-art{margin-inline:auto}}
 @media (max-width:640px){.brand-txt.has-art .name-art{height:38px}.hero h1 .au.has-art{margin-top:8px}.hero h1 .au.has-art .name-art{height:auto;width:min(100%,330px)}.foot .brand-txt.has-art .name-art{height:52px}}
+
+/* ===== v38: شارة «جديد» على الكتب المضافة حديثاً (بألوان الهوية) ===== */
+.frame .new-badge{position:absolute;top:8px;left:8px;z-index:3;padding:2px 11px 3px;border-radius:999px;background:var(--emerald);color:#fff;font:700 12.5px/1.7 "Plex",system-ui,sans-serif;box-shadow:0 0 0 2px rgb(255 255 255 / .9),0 6px 14px -6px rgb(var(--t-primary-d-rgb) / .7);pointer-events:none}
+@media (max-width:520px){.frame .new-badge{top:6px;left:6px;font-size:11.5px;padding:1px 9px 2px}}
