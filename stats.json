@@ -1,27 +1,27 @@
 {
- "updated": "2026-11-03T06:02Z",
- "total": 294,
- "last28": 294,
+ "updated": "2026-11-03T07:23Z",
+ "total": 315,
+ "last28": 315,
  "countries": [
   {
    "code": "SA",
    "name": "Saudi Arabia",
-   "count": 173
+   "count": 179
   },
   {
    "code": "KW",
    "name": "Kuwait",
-   "count": 27
+   "count": 28
   },
   {
    "code": "EG",
    "name": "Egypt",
-   "count": 20
+   "count": 25
   },
   {
    "code": "YE",
    "name": "Yemen",
-   "count": 15
+   "count": 16
   },
   {
    "code": "DZ",
@@ -34,14 +34,14 @@
    "count": 10
   },
   {
+   "code": "US",
+   "name": "United States",
+   "count": 9
+  },
+  {
    "code": "KZ",
    "name": "Kazakhstan",
    "count": 6
-  },
-  {
-   "code": "US",
-   "name": "United States",
-   "count": 5
   },
   {
    "code": "AF",
@@ -84,6 +84,16 @@
    "count": 2
   },
   {
+   "code": "SN",
+   "name": "Senegal",
+   "count": 2
+  },
+  {
+   "code": "DE",
+   "name": "Germany",
+   "count": 1
+  },
+  {
    "code": "IR",
    "name": "Iran",
    "count": 1
@@ -91,6 +101,11 @@
   {
    "code": "KE",
    "name": "Kenya",
+   "count": 1
+  },
+  {
+   "code": "LB",
+   "name": "Lebanon",
    "count": 1
   },
   {
