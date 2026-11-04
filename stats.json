@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-04T07:28Z",
- "total": 406,
- "last28": 406,
+ "updated": "2026-11-04T11:26Z",
+ "total": 408,
+ "last28": 408,
  "countries": [
   {
    "code": "SA",
@@ -16,7 +16,7 @@
   {
    "code": "KW",
    "name": "Kuwait",
-   "count": 29
+   "count": 30
   },
   {
    "code": "DZ",
@@ -74,6 +74,11 @@
    "count": 3
   },
   {
+   "code": "DE",
+   "name": "Germany",
+   "count": 2
+  },
+  {
    "code": "FR",
    "name": "France",
    "count": 2
@@ -92,11 +97,6 @@
    "code": "SN",
    "name": "Senegal",
    "count": 2
-  },
-  {
-   "code": "DE",
-   "name": "Germany",
-   "count": 1
   },
   {
    "code": "IN",
