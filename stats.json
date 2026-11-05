@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-05T22:56Z",
- "total": 512,
- "last28": 512,
+ "updated": "2026-11-05T23:52Z",
+ "total": 523,
+ "last28": 523,
  "countries": [
   {
    "code": "SA",
@@ -11,7 +11,7 @@
   {
    "code": "EG",
    "name": "Egypt",
-   "count": 45
+   "count": 46
   },
   {
    "code": "KW",
@@ -34,6 +34,11 @@
    "count": 12
   },
   {
+   "code": "MA",
+   "name": "Morocco",
+   "count": 11
+  },
+  {
    "code": "MV",
    "name": "Maldives",
    "count": 10
@@ -54,11 +59,6 @@
    "count": 6
   },
   {
-   "code": "MA",
-   "name": "Morocco",
-   "count": 6
-  },
-  {
    "code": "NG",
    "name": "Nigeria",
    "count": 6
@@ -71,6 +71,11 @@
   {
    "code": "QA",
    "name": "Qatar",
+   "count": 5
+  },
+  {
+   "code": "SE",
+   "name": "Sweden",
    "count": 5
   },
   {
@@ -99,11 +104,6 @@
    "count": 3
   },
   {
-   "code": "SE",
-   "name": "Sweden",
-   "count": 3
-  },
-  {
    "code": "SY",
    "name": "Syria",
    "count": 3
@@ -111,6 +111,11 @@
   {
    "code": "AZ",
    "name": "Azerbaijan",
+   "count": 2
+  },
+  {
+   "code": "CI",
+   "name": "Ivory Coast",
    "count": 2
   },
   {
@@ -142,6 +147,11 @@
    "code": "TR",
    "name": "Turkey",
    "count": 2
+  },
+  {
+   "code": "GH",
+   "name": "Ghana",
+   "count": 1
   },
   {
    "code": "IR",
