@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-05T21:55Z",
- "total": 0,
- "last28": 504,
+ "updated": "2026-11-05T22:56Z",
+ "total": 512,
+ "last28": 512,
  "countries": [
   {
    "code": "SA",
@@ -19,14 +19,14 @@
    "count": 35
   },
   {
+   "code": "YE",
+   "name": "Yemen",
+   "count": 22
+  },
+  {
    "code": "DZ",
    "name": "Algeria",
    "count": 21
-  },
-  {
-   "code": "YE",
-   "name": "Yemen",
-   "count": 16
   },
   {
    "code": "US",
@@ -54,6 +54,11 @@
    "count": 6
   },
   {
+   "code": "MA",
+   "name": "Morocco",
+   "count": 6
+  },
+  {
    "code": "NG",
    "name": "Nigeria",
    "count": 6
@@ -61,11 +66,6 @@
   {
    "code": "IN",
    "name": "India",
-   "count": 5
-  },
-  {
-   "code": "MA",
-   "name": "Morocco",
    "count": 5
   },
   {
@@ -139,6 +139,11 @@
    "count": 2
   },
   {
+   "code": "TR",
+   "name": "Turkey",
+   "count": 2
+  },
+  {
    "code": "IR",
    "name": "Iran",
    "count": 1
@@ -161,11 +166,6 @@
   {
    "code": "TG",
    "name": "Togo",
-   "count": 1
-  },
-  {
-   "code": "TR",
-   "name": "Turkey",
    "count": 1
   },
   {
