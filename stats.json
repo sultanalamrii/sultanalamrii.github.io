@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-06T05:07Z",
- "total": 574,
- "last28": 574,
+ "updated": "2026-11-06T06:09Z",
+ "total": 591,
+ "last28": 591,
  "countries": [
   {
    "code": "SA",
@@ -11,7 +11,7 @@
   {
    "code": "EG",
    "name": "Egypt",
-   "count": 47
+   "count": 51
   },
   {
    "code": "KW",
@@ -19,14 +19,14 @@
    "count": 35
   },
   {
-   "code": "SO",
-   "name": "Somalia",
-   "count": 28
-  },
-  {
    "code": "YE",
    "name": "Yemen",
-   "count": 25
+   "count": 34
+  },
+  {
+   "code": "SO",
+   "name": "Somalia",
+   "count": 30
   },
   {
    "code": "DZ",
@@ -151,6 +151,11 @@
   {
    "code": "SN",
    "name": "Senegal",
+   "count": 2
+  },
+  {
+   "code": "TN",
+   "name": "Tunisia",
    "count": 2
   },
   {
