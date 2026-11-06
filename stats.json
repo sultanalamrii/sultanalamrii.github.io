@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-06T11:59Z",
- "total": 620,
- "last28": 620,
+ "updated": "2026-11-06T14:57Z",
+ "total": 625,
+ "last28": 625,
  "countries": [
   {
    "code": "SA",
@@ -31,12 +31,12 @@
   {
    "code": "DZ",
    "name": "Algeria",
-   "count": 21
+   "count": 22
   },
   {
    "code": "MA",
    "name": "Morocco",
-   "count": 15
+   "count": 18
   },
   {
    "code": "US",
@@ -129,6 +129,11 @@
    "count": 3
   },
   {
+   "code": "TR",
+   "name": "Turkey",
+   "count": 3
+  },
+  {
    "code": "AZ",
    "name": "Azerbaijan",
    "count": 2
@@ -161,11 +166,6 @@
   {
    "code": "TN",
    "name": "Tunisia",
-   "count": 2
-  },
-  {
-   "code": "TR",
-   "name": "Turkey",
    "count": 2
   },
   {
