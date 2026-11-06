@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-06T07:27Z",
- "total": 603,
- "last28": 603,
+ "updated": "2026-11-06T09:07Z",
+ "total": 608,
+ "last28": 608,
  "countries": [
   {
    "code": "SA",
    "name": "Saudi Arabia",
-   "count": 297
+   "count": 298
   },
   {
    "code": "EG",
@@ -66,6 +66,11 @@
   {
    "code": "NG",
    "name": "Nigeria",
+   "count": 6
+  },
+  {
+   "code": "SN",
+   "name": "Senegal",
    "count": 6
   },
   {
@@ -151,11 +156,6 @@
   {
    "code": "PH",
    "name": "Philippines",
-   "count": 2
-  },
-  {
-   "code": "SN",
-   "name": "Senegal",
    "count": 2
   },
   {
