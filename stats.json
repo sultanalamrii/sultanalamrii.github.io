@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-06T14:57Z",
- "total": 625,
- "last28": 625,
+ "updated": "2026-11-06T15:58Z",
+ "total": 626,
+ "last28": 626,
  "countries": [
   {
    "code": "SA",
@@ -11,7 +11,7 @@
   {
    "code": "EG",
    "name": "Egypt",
-   "count": 54
+   "count": 55
   },
   {
    "code": "KW",
