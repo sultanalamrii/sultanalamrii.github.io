@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-06T17:01Z",
- "total": 628,
- "last28": 628,
+ "updated": "2026-11-06T19:02Z",
+ "total": 630,
+ "last28": 630,
  "countries": [
   {
    "code": "SA",
@@ -36,7 +36,7 @@
   {
    "code": "MA",
    "name": "Morocco",
-   "count": 18
+   "count": 20
   },
   {
    "code": "US",
