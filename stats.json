@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-07T10:52Z",
- "total": 651,
- "last28": 651,
+ "updated": "2026-11-07T11:48Z",
+ "total": 655,
+ "last28": 655,
  "countries": [
   {
    "code": "SA",
@@ -11,7 +11,7 @@
   {
    "code": "EG",
    "name": "Egypt",
-   "count": 60
+   "count": 63
   },
   {
    "code": "KW",
@@ -119,6 +119,11 @@
    "count": 3
   },
   {
+   "code": "GM",
+   "name": "Gambia",
+   "count": 3
+  },
+  {
    "code": "ID",
    "name": "Indonesia",
    "count": 3
@@ -146,11 +151,6 @@
   {
    "code": "FR",
    "name": "France",
-   "count": 2
-  },
-  {
-   "code": "GM",
-   "name": "Gambia",
    "count": 2
   },
   {
