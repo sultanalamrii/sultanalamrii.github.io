@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-07T14:51Z",
- "total": 668,
- "last28": 668,
+ "updated": "2026-11-07T15:48Z",
+ "total": 670,
+ "last28": 670,
  "countries": [
   {
    "code": "SA",
@@ -59,6 +59,11 @@
    "count": 7
   },
   {
+   "code": "DE",
+   "name": "Germany",
+   "count": 6
+  },
+  {
    "code": "KZ",
    "name": "Kazakhstan",
    "count": 6
@@ -101,11 +106,6 @@
   {
    "code": "CI",
    "name": "Ivory Coast",
-   "count": 4
-  },
-  {
-   "code": "DE",
-   "name": "Germany",
    "count": 4
   },
   {
