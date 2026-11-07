@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-07T13:01Z",
- "total": 662,
- "last28": 662,
+ "updated": "2026-11-07T13:57Z",
+ "total": 667,
+ "last28": 667,
  "countries": [
   {
    "code": "SA",
@@ -31,7 +31,7 @@
   {
    "code": "MA",
    "name": "Morocco",
-   "count": 24
+   "count": 25
   },
   {
    "code": "DZ",
@@ -71,6 +71,11 @@
   {
    "code": "NG",
    "name": "Nigeria",
+   "count": 6
+  },
+  {
+   "code": "PH",
+   "name": "Philippines",
    "count": 6
   },
   {
@@ -161,11 +166,6 @@
   {
    "code": "KE",
    "name": "Kenya",
-   "count": 2
-  },
-  {
-   "code": "PH",
-   "name": "Philippines",
    "count": 2
   },
   {
