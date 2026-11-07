@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-07T05:55Z",
- "total": 647,
- "last28": 647,
+ "updated": "2026-11-07T09:55Z",
+ "total": 650,
+ "last28": 650,
  "countries": [
   {
    "code": "SA",
@@ -11,7 +11,7 @@
   {
    "code": "EG",
    "name": "Egypt",
-   "count": 59
+   "count": 60
   },
   {
    "code": "KW",
@@ -94,6 +94,11 @@
    "count": 5
   },
   {
+   "code": "CI",
+   "name": "Ivory Coast",
+   "count": 4
+  },
+  {
    "code": "DE",
    "name": "Germany",
    "count": 4
@@ -136,11 +141,6 @@
   {
    "code": "AZ",
    "name": "Azerbaijan",
-   "count": 2
-  },
-  {
-   "code": "CI",
-   "name": "Ivory Coast",
    "count": 2
   },
   {
