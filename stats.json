@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-08T19:52Z",
- "total": 714,
- "last28": 714,
+ "updated": "2026-11-08T20:48Z",
+ "total": 718,
+ "last28": 718,
  "countries": [
   {
    "code": "SA",
@@ -14,6 +14,11 @@
    "count": 66
   },
   {
+   "code": "YE",
+   "name": "Yemen",
+   "count": 38
+  },
+  {
    "code": "KW",
    "name": "Kuwait",
    "count": 35
@@ -22,11 +27,6 @@
    "code": "SO",
    "name": "Somalia",
    "count": 35
-  },
-  {
-   "code": "YE",
-   "name": "Yemen",
-   "count": 34
   },
   {
    "code": "MA",
