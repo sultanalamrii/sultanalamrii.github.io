@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-08T16:49Z",
- "total": 709,
- "last28": 709,
+ "updated": "2026-11-08T18:54Z",
+ "total": 710,
+ "last28": 710,
  "countries": [
   {
    "code": "SA",
@@ -89,6 +89,11 @@
    "count": 6
   },
   {
+   "code": "FR",
+   "name": "France",
+   "count": 5
+  },
+  {
    "code": "GW",
    "name": "Guinea-Bissau",
    "count": 5
@@ -116,11 +121,6 @@
   {
    "code": "ET",
    "name": "Ethiopia",
-   "count": 4
-  },
-  {
-   "code": "FR",
-   "name": "France",
    "count": 4
   },
   {
