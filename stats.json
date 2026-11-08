@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-07T23:45Z",
- "total": 0,
- "last28": 683,
+ "updated": "2026-11-08T01:16Z",
+ "total": 684,
+ "last28": 684,
  "countries": [
   {
    "code": "SA",
@@ -49,14 +49,14 @@
    "count": 10
   },
   {
-   "code": "SN",
-   "name": "Senegal",
+   "code": "AF",
+   "name": "Afghanistan",
    "count": 8
   },
   {
-   "code": "AF",
-   "name": "Afghanistan",
-   "count": 7
+   "code": "SN",
+   "name": "Senegal",
+   "count": 8
   },
   {
    "code": "DE",
