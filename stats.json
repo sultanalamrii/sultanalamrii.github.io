@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-09T01:20Z",
- "total": 719,
- "last28": 719,
+ "updated": "2026-11-09T02:57Z",
+ "total": 721,
+ "last28": 721,
  "countries": [
   {
    "code": "SA",
@@ -157,6 +157,11 @@
    "code": "TR",
    "name": "Turkey",
    "count": 3
+  },
+  {
+   "code": "CA",
+   "name": "Canada",
+   "count": 2
   },
   {
    "code": "IT",
