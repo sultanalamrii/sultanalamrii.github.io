@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-11T09:06Z",
- "total": 838,
- "last28": 838,
+ "updated": "2026-11-11T10:10Z",
+ "total": 840,
+ "last28": 840,
  "countries": [
   {
    "code": "SA",
@@ -64,6 +64,11 @@
    "count": 8
   },
   {
+   "code": "FR",
+   "name": "France",
+   "count": 7
+  },
+  {
    "code": "PH",
    "name": "Philippines",
    "count": 7
@@ -117,11 +122,6 @@
    "code": "SE",
    "name": "Sweden",
    "count": 6
-  },
-  {
-   "code": "FR",
-   "name": "France",
-   "count": 5
   },
   {
    "code": "GW",
