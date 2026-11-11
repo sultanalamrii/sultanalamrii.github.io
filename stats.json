@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-11T13:22Z",
- "total": 849,
- "last28": 849,
+ "updated": "2026-11-11T15:01Z",
+ "total": 851,
+ "last28": 851,
  "countries": [
   {
    "code": "SA",
    "name": "Saudi Arabia",
-   "count": 437
+   "count": 438
   },
   {
    "code": "EG",
@@ -201,6 +201,11 @@
   {
    "code": "IR",
    "name": "Iran",
+   "count": 1
+  },
+  {
+   "code": "JO",
+   "name": "Hashemite Kingdom of Jordan",
    "count": 1
   },
   {
