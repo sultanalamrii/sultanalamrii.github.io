@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-12T15:06Z",
- "total": 906,
- "last28": 906,
+ "updated": "2026-11-12T16:14Z",
+ "total": 907,
+ "last28": 907,
  "countries": [
   {
    "code": "SA",
@@ -84,13 +84,13 @@
    "count": 7
   },
   {
-   "code": "AZ",
-   "name": "Azerbaijan",
-   "count": 6
-  },
-  {
    "code": "GM",
    "name": "Gambia",
+   "count": 7
+  },
+  {
+   "code": "AZ",
+   "name": "Azerbaijan",
    "count": 6
   },
   {
