@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-12T10:15Z",
- "total": 893,
- "last28": 893,
+ "updated": "2026-11-12T11:17Z",
+ "total": 898,
+ "last28": 898,
  "countries": [
   {
    "code": "SA",
@@ -44,6 +44,11 @@
    "count": 18
   },
   {
+   "code": "DE",
+   "name": "Germany",
+   "count": 10
+  },
+  {
    "code": "MV",
    "name": "Maldives",
    "count": 10
@@ -51,6 +56,11 @@
   {
    "code": "AF",
    "name": "Afghanistan",
+   "count": 8
+  },
+  {
+   "code": "PH",
+   "name": "Philippines",
    "count": 8
   },
   {
@@ -74,18 +84,8 @@
    "count": 7
   },
   {
-   "code": "PH",
-   "name": "Philippines",
-   "count": 7
-  },
-  {
    "code": "AZ",
    "name": "Azerbaijan",
-   "count": 6
-  },
-  {
-   "code": "DE",
-   "name": "Germany",
    "count": 6
   },
   {
