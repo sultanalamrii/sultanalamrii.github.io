@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-12T20:59Z",
- "total": 916,
- "last28": 916,
+ "updated": "2026-11-12T22:56Z",
+ "total": 919,
+ "last28": 919,
  "countries": [
   {
    "code": "SA",
@@ -19,14 +19,14 @@
    "count": 49
   },
   {
-   "code": "SO",
-   "name": "Somalia",
+   "code": "KW",
+   "name": "Kuwait",
    "count": 38
   },
   {
-   "code": "KW",
-   "name": "Kuwait",
-   "count": 35
+   "code": "SO",
+   "name": "Somalia",
+   "count": 38
   },
   {
    "code": "MA",
