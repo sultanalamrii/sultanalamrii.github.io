@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-13T12:04Z",
- "total": 937,
- "last28": 937,
+ "updated": "2026-11-13T14:59Z",
+ "total": 938,
+ "last28": 938,
  "countries": [
   {
    "code": "SA",
@@ -69,6 +69,11 @@
    "count": 8
   },
   {
+   "code": "GM",
+   "name": "Gambia",
+   "count": 8
+  },
+  {
    "code": "IQ",
    "name": "Iraq",
    "count": 8
@@ -91,11 +96,6 @@
   {
    "code": "AE",
    "name": "United Arab Emirates",
-   "count": 7
-  },
-  {
-   "code": "GM",
-   "name": "Gambia",
    "count": 7
   },
   {
