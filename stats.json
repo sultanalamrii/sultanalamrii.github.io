@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-14T11:49Z",
- "total": 981,
- "last28": 981,
+ "updated": "2026-11-14T13:02Z",
+ "total": 983,
+ "last28": 983,
  "countries": [
   {
    "code": "SA",
@@ -79,6 +79,11 @@
    "count": 8
   },
   {
+   "code": "KZ",
+   "name": "Kazakhstan",
+   "count": 8
+  },
+  {
    "code": "PH",
    "name": "Philippines",
    "count": 8
@@ -106,11 +111,6 @@
   {
    "code": "IN",
    "name": "India",
-   "count": 6
-  },
-  {
-   "code": "KZ",
-   "name": "Kazakhstan",
    "count": 6
   },
   {
