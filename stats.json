@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-14T05:58Z",
- "total": 971,
- "last28": 971,
+ "updated": "2026-11-14T07:15Z",
+ "total": 972,
+ "last28": 972,
  "countries": [
   {
    "code": "SA",
@@ -61,7 +61,7 @@
   {
    "code": "AF",
    "name": "Afghanistan",
-   "count": 8
+   "count": 9
   },
   {
    "code": "FR",
