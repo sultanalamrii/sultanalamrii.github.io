@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-15T13:04Z",
- "total": 1012,
- "last28": 1012,
+ "updated": "2026-11-15T14:00Z",
+ "total": 1019,
+ "last28": 1019,
  "countries": [
   {
    "code": "SA",
    "name": "Saudi Arabia",
-   "count": 542
+   "count": 544
   },
   {
    "code": "EG",
@@ -124,6 +124,11 @@
    "count": 6
   },
   {
+   "code": "QA",
+   "name": "Qatar",
+   "count": 6
+  },
+  {
    "code": "SE",
    "name": "Sweden",
    "count": 6
@@ -131,11 +136,6 @@
   {
    "code": "GW",
    "name": "Guinea-Bissau",
-   "count": 5
-  },
-  {
-   "code": "QA",
-   "name": "Qatar",
    "count": 5
   },
   {
@@ -161,6 +161,11 @@
   {
    "code": "NL",
    "name": "Netherlands",
+   "count": 4
+  },
+  {
+   "code": "SG",
+   "name": "Singapore",
    "count": 4
   },
   {
