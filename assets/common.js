@@ -96,7 +96,7 @@
     for (let k = 0; k < 20 && contrast(I, B) < 9; k++) I = mix(I, BLACK, 0.12);
     const Pd = mix(P, BLACK, 0.36);
     for (let k = 0; k < 20 && contrast(A, Pd) < 3.2; k++) A = mix(A, WHITE, 0.1);
-    let At = light ? P0 : mix(A, BLACK, 0.3); // في الهوية الفاتحة: النصوص المميزة بالأساسي نفسه بدل لون مشتق من المميز
+    let At = light || lum(A) > 0.6 ? P0 : mix(A, BLACK, 0.3); // في الهوية الفاتحة، أو إذا المميز فاتح جداً (سماوي): النصوص المميزة بالأساسي نفسه بدل لون مشتق باهت
     for (let k = 0; k < 20 && contrast(At, B) < 4.6; k++) At = mix(At, BLACK, 0.08);
     const rgb = (c) => c.map(Math.round).join(" ");
     const v = {
@@ -185,6 +185,7 @@
     country: ["دولة", "دولتان", "دول", "دولة", "دولة"],
     visitor: ["زائر", "زائران", "زوار", "زائراً", "زائر"],
     view: ["مشاهدة", "مشاهدتان", "مشاهدات", "مشاهدة", "مشاهدة"],
+    work: ["مؤلَّف جديد", "مؤلَّفان جديدان", "مؤلفات جديدة", "مؤلَّفاً جديداً", "مؤلَّف جديد"],
   };
   function plural(n, w) {
     const f = WORDS[w] || w; n = Math.abs(Math.round(Number(n) || 0)); const m = n % 100;

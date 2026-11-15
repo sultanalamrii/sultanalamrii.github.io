@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-الظهور في محركات البحث ونماذج الذكاء الاصطناعي (v37) — مكتبة الشيخ سلطان العمري (هوية فاتحة sky + اسم بالخط اليدوي)
+الظهور في محركات البحث ونماذج الذكاء الاصطناعي (v37) — قالب المكتبة الرقمية (يدعم كل الهويات ومنها الفاتحة sky، والاسم بالخط اليدوي nameArt)
 يولّد من books.json وملفات PDF:
   1) kitab/<id>.html  صفحة نصية ثابتة لكل كتاب (تُحذف صفحة أي كتاب انحذف)
   2) قسم ثابت في index.html بين <!-- SEO:START --> و <!-- SEO:END -->
@@ -54,7 +54,7 @@ def derive(t):
     for _ in range(20):
         if contrast(A, Pd) >= 3.2: break
         A = mix(A, WHITE, 0.1)
-    At = P0 if light else mix(A, BLACK, 0.3)
+    At = P0 if light or lum(A) > 0.6 else mix(A, BLACK, 0.3)
     for _ in range(20):
         if contrast(At, B) >= 4.6: break
         At = mix(At, BLACK, 0.08)
@@ -251,7 +251,7 @@ def brand_txt(site, lib, base):  # الشعار: سطران، أو اسم الم
 
 def book_page(b, site, lib, site_author, base, theme, ver, ex):
     title, author, cat = b["title"], (b.get("author") or site_author or "").strip(), (b.get("category") or "").strip()
-    url, cover = f"{base}kitab/{quote(b['id'])}.html", (base + quote(b["cover"])) if b.get("cover") else base + "assets/og.jpg"
+    url, cover = f"{base}kitab/{quote(b['id'])}.html", (base + quote(b["cover"], safe="/?=&")) if b.get("cover") else base + "assets/og.jpg"
     pages = int(b.get("pages") or 0); desc_field = (b.get("description") or b.get("desc") or "").strip()
     head_title = f"{title} — {author} | {lib}" if author else f"{title} | {lib}"
     meta = f"كتاب «{title}»" + (f" — {author}" if author else "") + (f"، من تصنيف {cat}" if cat else "") + (f"، في {count(pages, 'page')}" if pages else "") + f". اقرأه مجاناً بتقليب الصفحات في {lib}."

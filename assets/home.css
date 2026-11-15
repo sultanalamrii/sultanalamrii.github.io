@@ -187,7 +187,7 @@
 .card:focus-visible .frame{box-shadow:0 0 0 2px var(--ivory),0 0 0 4px var(--gold-l)}
 .card:active .frame img{transform:scale(.98);transition-duration:.1s}
 .card-tag{margin-top:12px;font-size:12px;font-weight:600;color:var(--gold);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.card h3{margin:3px 0 0;font-size:15px;line-height:1.65;font-weight:600;color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:3.3em;transition:color .2s}
+.card h3{margin:3px 0 0;font-size:15px;line-height:1.65;font-weight:600;color:var(--ink);min-height:3.3em;transition:color .2s} /* العنوان كامل بدون قصّ */
 .card .meta{display:flex;gap:8px;align-items:center;margin-top:4px;color:var(--muted);font-size:12.5px}
 .card .meta .views{display:inline-flex;align-items:center}
 .card .meta .views::before{content:"";width:3px;height:3px;border-radius:50%;background:var(--t-dot);margin-inline-end:8px}
@@ -328,3 +328,49 @@
 /* ===== v38: شارة «جديد» على الكتب المضافة حديثاً (بألوان الهوية) ===== */
 .frame .new-badge{position:absolute;top:8px;left:8px;z-index:3;padding:2px 11px 3px;border-radius:999px;background:var(--emerald);color:#fff;font:700 12.5px/1.7 "Plex",system-ui,sans-serif;box-shadow:0 0 0 2px rgb(255 255 255 / .9),0 6px 14px -6px rgb(var(--t-primary-d-rgb) / .7);pointer-events:none}
 @media (max-width:520px){.frame .new-badge{top:6px;left:6px;font-size:11.5px;padding:1px 9px 2px}}
+
+/* ===== v39: عنوان المكتبة بالخط اليدوي (site.titleArt) ===== */
+.hero h1.h1-art{margin:6px 0 0;font-size:0;line-height:0}
+.hero h1 .title-art{display:block;width:100%;max-width:600px}
+.hero h1 .title-art svg,.hero h1 .title-art img{display:block;width:100%;height:auto}
+.hero h1 .title-art .t{fill:var(--t-hero-title,#fff)}
+.hero h1 .title-art .n{fill:var(--t-highlight,var(--gold-l))}
+@media (max-width:900px){.hero h1 .title-art{margin-inline:auto}}
+@media (max-width:640px){.hero h1.h1-art{margin-top:4px}.hero h1 .title-art{max-width:min(100%,420px)}}
+
+/* ===== v39: كتب قيد الإعداد (data.upcoming) — بألوان الهوية ===== */
+.soon-sec{padding-top:56px}
+.soon-box{position:relative;overflow:hidden;border-radius:22px;padding:28px 28px 26px;
+  background:radial-gradient(ellipse at 100% 0%,rgb(var(--t-accent-rgb) / .26),transparent 55%),linear-gradient(135deg,rgb(var(--t-accent-rgb) / .07) 0%,rgb(var(--t-accent-rgb) / .2) 100%),var(--t-card);
+  border:1px solid rgb(var(--t-accent-rgb) / .45);box-shadow:0 20px 44px -30px rgb(var(--t-primary-rgb) / .55)}
+.soon-head{position:relative;display:flex;align-items:center;gap:16px;margin-bottom:22px}
+.soon-ic{flex:none;width:56px;height:56px;border-radius:16px;display:grid;place-items:center;background:linear-gradient(145deg,var(--t-primary-l),var(--t-primary-d));color:#fff;box-shadow:0 10px 22px -12px rgb(var(--t-primary-d-rgb) / .8)}
+.soon-ic svg{width:30px;height:30px}
+.soon-kicker{color:var(--t-accent-text);font-size:13px;font-weight:700}
+.soon-head h2{margin:0;font-family:var(--display);font-weight:700;font-size:clamp(26px,3vw,36px);line-height:1.5;color:var(--t-head,var(--emerald))}
+.soon-head p{margin:2px 0 0;color:var(--muted);font-size:14.5px}
+.soon-row{position:relative;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:24px}
+.soon-card{cursor:pointer;outline:none;min-width:0}
+.soon-frame{position:relative;aspect-ratio:5/7;border-radius:12px;padding:10px;background:rgb(255 255 255 / .6);border:1px dashed rgb(var(--t-accent-rgb) / .7);display:grid;place-items:center;transition:background .25s,border-color .25s}
+.soon-frame img{max-width:100%;max-height:100%;object-fit:contain;display:block;border-radius:2px 5px 5px 2px;box-shadow:0 10px 22px -12px rgb(var(--t-shade-rgb) / .55);transition:transform .35s var(--ease)}
+.soon-frame .ph{width:100%;height:100%;display:grid;place-items:center;text-align:center;padding:12px;font-family:var(--display);line-height:1.6;color:var(--t-head,var(--emerald))}
+.soon-badge{position:absolute;top:8px;right:8px;padding:3px 10px;border-radius:999px;background:linear-gradient(145deg,var(--t-primary-l),var(--t-primary-d));color:#fff;font-size:11.5px;font-weight:700;line-height:1.7;box-shadow:0 4px 10px -4px rgb(0 0 0 / .4)}
+.soon-card h3{margin:10px 0 0;font-size:14.5px;line-height:1.6;font-weight:600;color:var(--ink)}
+.soon-note{margin-top:2px;font-size:12px;color:var(--t-accent-text)}
+@media (hover:hover){.soon-card:hover .soon-frame{background:rgb(255 255 255 / .85);border-color:var(--t-accent)}.soon-card:hover img{transform:translateY(-4px)}}
+.soon-card:focus-visible .soon-frame{box-shadow:0 0 0 2px var(--t-card),0 0 0 4px var(--t-primary)}
+@media (max-width:1100px){.soon-row{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:640px){.soon-sec{padding-top:30px}.soon-box{padding:18px 14px 16px;border-radius:18px}.soon-head{gap:12px;margin-bottom:14px}.soon-ic{width:46px;height:46px;border-radius:13px}.soon-ic svg{width:25px;height:25px}.soon-head h2{font-size:24px}.soon-head p{font-size:13px}
+  .soon-row{display:grid;grid-auto-flow:column;grid-template-columns:none;grid-auto-columns:40%;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px;scrollbar-width:none}
+  .soon-row::-webkit-scrollbar{display:none}.soon-card{scroll-snap-align:start}.soon-card h3{font-size:13.5px}}
+.soon-toast{position:fixed;bottom:24px;left:50%;transform:translate(-50%,16px);z-index:70;max-width:calc(100vw - 32px);padding:11px 18px;border-radius:14px;background:var(--t-primary-dd);color:#fff;font-size:14px;line-height:1.7;box-shadow:0 14px 30px -12px rgb(0 0 0 / .5);opacity:0;pointer-events:none;transition:opacity .25s,transform .25s}
+.soon-toast.show{opacity:1;transform:translate(-50%,0)}
+.coll.coll-soon{background:linear-gradient(135deg,var(--t-primary-d) 0%,var(--t-primary) 100%);border-color:var(--t-primary-d);color:#fff}
+.coll.coll-soon h3{color:#fff}
+.coll.coll-soon .coll-meta,.coll.coll-soon .coll-meta b{color:rgb(255 255 255 / .82)}
+.coll.coll-soon .coll-ic{background:rgb(255 255 255 / .16);color:#fff}
+.coll.coll-soon:hover .coll-ic{background:#fff;color:var(--t-primary)}
+.coll.coll-soon .coll-go{color:#fff}
+.coll.coll-soon .coll-covers img{border-color:rgb(255 255 255 / .5)}
+.coll.coll-soon::before{background:linear-gradient(90deg,#fff,var(--t-highlight))}
+@media (prefers-reduced-motion:reduce){.soon-toast,.soon-frame img{transition:none}}
