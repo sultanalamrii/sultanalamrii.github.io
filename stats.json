@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-15T16:52Z",
- "total": 1024,
- "last28": 1024,
+ "updated": "2026-11-15T18:56Z",
+ "total": 1026,
+ "last28": 1026,
  "countries": [
   {
    "code": "SA",
    "name": "Saudi Arabia",
-   "count": 548
+   "count": 550
   },
   {
    "code": "EG",
