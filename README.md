@@ -27,3 +27,8 @@
 - قائمة الكتب الثابتة داخل `<noscript>` في `index.html` (بين علامتي SEO)، و `sitemap.xml` و `llms.txt` في جذر الموقع.
 - كل هذا يتحدث تلقائياً: مع أي تغيير في `books.json` أو مجلد `books` يشتغل «تحديث صفحات محركات البحث» (`.github/workflows/seo.yml`) ويشغّل `tools/build_seo.py`. ما يحتاج تعديل يدوي.
 - ملف التحقق من Google (`google….html`) في جذر المستودع **لا يُحذف ولا يُعدّل**.
+
+## التثبيت كتطبيق
+- السكربت: `tools/pwa.py`، ويولّد الأيقونات و`manifest.webmanifest` و`sw.js` ووسوم التثبيت بين علامتي PWA.
+- يشتغل تلقائياً من آخر `tools/configure.py`، ويُعاد تشغيله (`python3 tools/pwa.py`) عند تغيّر اسم المكتبة أو الهوية.
+- الاسم يُخصَّص بـ `site.appName`، والاسم المختصر تحت الأيقونة بـ `site.appShortName` (١٢ حرفاً أو أقل).

@@ -301,7 +301,9 @@ def book_page(b, site, lib, site_author, base, theme, ver, ex):
 <script type="application/ld+json">
 {ld_json}
 </script>
-<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png">
 <link rel="stylesheet" href="../assets/style.css?v={ver[0]}">
 <link rel="stylesheet" href="../assets/home.css?v={ver[1]}">
 {style}<style>{PAGE_CSS.strip()}</style>

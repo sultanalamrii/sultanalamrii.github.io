@@ -25,7 +25,8 @@
       "highlight": "#0284C7",
       "light": true
     },
-    "newDays": 45
+    "newDays": 45,
+    "appName": "مكتبة الشيخ سلطان العمري"
   },
   "books": [
     {
