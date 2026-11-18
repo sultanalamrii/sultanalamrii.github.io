@@ -587,3 +587,8 @@ body.ann-open .lk-layer{display:none}
   .r-bottom .ibtn:not(.toc-btn){width:32px;min-width:32px}
   .ibtn.toc-btn{padding:0 3px;min-width:44px}
 }
+
+/* وضع ملء الشاشة */
+body.immersive .r-top,body.immersive .r-bottom,body.immersive .ws-strip{display:none!important}
+.fs-exit{position:fixed;top:calc(8px + env(safe-area-inset-top));left:8px;z-index:30;width:40px;height:40px;border-radius:50%;border:0;display:grid;place-items:center;color:#fff;background:rgba(0,0,0,.42);backdrop-filter:blur(6px);cursor:pointer;opacity:.75}
+.fs-exit:hover{opacity:1}.fs-exit svg{width:22px;height:22px}.fs-exit[hidden]{display:none}
