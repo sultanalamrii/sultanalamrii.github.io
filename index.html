@@ -149,6 +149,7 @@
 <section class="sec" id="library" aria-labelledby="libH">
   <div class="wrap">
     <div class="sec-head rv"><div><div class="sec-kicker">الفهرس الكامل</div><h2 id="libH">جميع الكتب</h2><p id="libSub"></p></div></div>
+    <div id="libAnchor" aria-hidden="true"></div>
     <div class="lib-bar" id="libBar">
       <nav class="cats" id="cats" aria-label="تصنيفات الكتب" hidden></nav>
       <label class="sortbox"><span class="sr">ترتيب الكتب</span>
@@ -427,10 +428,17 @@
     const nav = $("cats"); nav.hidden = false;
     const mk = (label, val, n) => {
       const c = el("button", "chip" + (val === curCat ? " on" : ""), label); c.type = "button"; c.dataset.val = val;
-      c.appendChild(el("small", "", ar(n))); c.onclick = () => setCat(val); nav.appendChild(c);
+      c.appendChild(el("small", "", ar(n))); c.onclick = () => keepBar(() => setCat(val)); nav.appendChild(c);
     };
     mk("الكل", "", books.length);
     cats.forEach((c) => mk(c, c, inCat(c).length));
+  }
+  // أزرار التصنيفات: تبقى الشاشة ثابتة وشريط التصنيفات في مكانه، وتتغير الكتب تحته فقط (v42)
+  // mode === "keep": نقيس موضع المرجع قبل التغيير ونعوّض الفرق بعده؛ وإذا كان الشريط مثبّتاً يبقى عند حد التثبيت
+  function keepBar(fn, mode = "keep") {
+    const anc = $("libAnchor"), tbH = $("topbar").offsetHeight, a0 = mode === "keep" ? anc.getBoundingClientRect().top : 0;
+    fn();
+    if (mode === "keep") { const want = Math.max(a0, tbH), d = anc.getBoundingClientRect().top - want; if (Math.abs(d) > 1) window.scrollTo({ top: scrollY + d, behavior: "auto" }); }
   }
   function setCat(v) {
     curCat = v;
