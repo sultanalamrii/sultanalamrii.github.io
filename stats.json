@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-19T17:18Z",
- "total": 1178,
- "last28": 1178,
+ "updated": "2026-11-19T19:11Z",
+ "total": 1241,
+ "last28": 1241,
  "countries": [
   {
    "code": "SA",
    "name": "Saudi Arabia",
-   "count": 663
+   "count": 703
   },
   {
    "code": "EG",
    "name": "Egypt",
-   "count": 72
+   "count": 79
   },
   {
    "code": "YE",
    "name": "Yemen",
-   "count": 56
+   "count": 58
   },
   {
    "code": "SO",
@@ -36,17 +36,17 @@
   {
    "code": "DZ",
    "name": "Algeria",
-   "count": 28
-  },
-  {
-   "code": "US",
-   "name": "United States",
-   "count": 19
+   "count": 31
   },
   {
    "code": "LB",
    "name": "Lebanon",
-   "count": 18
+   "count": 21
+  },
+  {
+   "code": "US",
+   "name": "United States",
+   "count": 20
   },
   {
    "code": "DE",
@@ -61,7 +61,12 @@
   {
    "code": "IQ",
    "name": "Iraq",
-   "count": 10
+   "count": 11
+  },
+  {
+   "code": "SY",
+   "name": "Syria",
+   "count": 11
   },
   {
    "code": "MV",
@@ -109,13 +114,13 @@
    "count": 8
   },
   {
-   "code": "SY",
-   "name": "Syria",
-   "count": 8
-  },
-  {
    "code": "AE",
    "name": "United Arab Emirates",
+   "count": 7
+  },
+  {
+   "code": "SE",
+   "name": "Sweden",
    "count": 7
   },
   {
@@ -131,11 +136,6 @@
   {
    "code": "NG",
    "name": "Nigeria",
-   "count": 6
-  },
-  {
-   "code": "SE",
-   "name": "Sweden",
    "count": 6
   },
   {
@@ -174,6 +174,11 @@
    "count": 4
   },
   {
+   "code": "CA",
+   "name": "Canada",
+   "count": 3
+  },
+  {
    "code": "KE",
    "name": "Kenya",
    "count": 3
@@ -187,11 +192,6 @@
    "code": "TR",
    "name": "Turkey",
    "count": 3
-  },
-  {
-   "code": "CA",
-   "name": "Canada",
-   "count": 2
   },
   {
    "code": "IT",
@@ -226,6 +226,11 @@
   {
    "code": "ML",
    "name": "Mali",
+   "count": 1
+  },
+  {
+   "code": "OM",
+   "name": "Oman",
    "count": 1
   },
   {
