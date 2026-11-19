@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-19T21:59Z",
- "total": 1278,
- "last28": 1278,
+ "updated": "2026-11-19T22:58Z",
+ "total": 1285,
+ "last28": 1285,
  "countries": [
   {
    "code": "SA",
    "name": "Saudi Arabia",
-   "count": 730
+   "count": 734
   },
   {
    "code": "EG",
@@ -129,6 +129,11 @@
    "count": 6
   },
   {
+   "code": "GW",
+   "name": "Guinea-Bissau",
+   "count": 6
+  },
+  {
    "code": "IN",
    "name": "India",
    "count": 6
@@ -137,11 +142,6 @@
    "code": "NG",
    "name": "Nigeria",
    "count": 6
-  },
-  {
-   "code": "GW",
-   "name": "Guinea-Bissau",
-   "count": 5
   },
   {
    "code": "BD",
@@ -199,6 +199,11 @@
    "count": 2
   },
   {
+   "code": "PS",
+   "name": "Palestine",
+   "count": 2
+  },
+  {
    "code": "GB",
    "name": "United Kingdom",
    "count": 1
@@ -246,11 +251,6 @@
   {
    "code": "TG",
    "name": "Togo",
-   "count": 1
-  },
-  {
-   "code": "TJ",
-   "name": "Tajikistan",
    "count": 1
   }
  ]
