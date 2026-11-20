@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-20T20:12Z",
- "total": 1390,
- "last28": 1390,
+ "updated": "2026-11-20T21:00Z",
+ "total": 1392,
+ "last28": 1392,
  "countries": [
   {
    "code": "SA",
@@ -26,7 +26,7 @@
   {
    "code": "KW",
    "name": "Kuwait",
-   "count": 42
+   "count": 44
   },
   {
    "code": "MA",
