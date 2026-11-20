@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-20T17:09Z",
- "total": 1381,
- "last28": 1381,
+ "updated": "2026-11-20T18:08Z",
+ "total": 1386,
+ "last28": 1386,
  "countries": [
   {
    "code": "SA",
    "name": "Saudi Arabia",
-   "count": 798
+   "count": 801
   },
   {
    "code": "EG",
@@ -84,6 +84,11 @@
    "count": 10
   },
   {
+   "code": "AE",
+   "name": "United Arab Emirates",
+   "count": 9
+  },
+  {
    "code": "AF",
    "name": "Afghanistan",
    "count": 9
@@ -117,11 +122,6 @@
    "code": "SN",
    "name": "Senegal",
    "count": 8
-  },
-  {
-   "code": "AE",
-   "name": "United Arab Emirates",
-   "count": 7
   },
   {
    "code": "ET",
