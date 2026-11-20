@@ -814,6 +814,16 @@
       ],
       "date": "2026-11-15",
       "added": "2026-11-15"
+    },
+    {
+      "id": "book-77",
+      "title": "مسائل في المسح على الخفين",
+      "file": "books/book-77.pdf",
+      "cover": "covers/book-77.jpg",
+      "pages": 17,
+      "category": "علمية",
+      "date": "2026-11-19",
+      "added": "2026-11-20"
     }
   ]
 }
