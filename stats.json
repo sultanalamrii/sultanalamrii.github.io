@@ -1,17 +1,17 @@
 {
- "updated": "2026-11-20T08:26Z",
- "total": 1328,
- "last28": 1328,
+ "updated": "2026-11-20T10:17Z",
+ "total": 1345,
+ "last28": 1345,
  "countries": [
   {
    "code": "SA",
    "name": "Saudi Arabia",
-   "count": 759
+   "count": 769
   },
   {
    "code": "EG",
    "name": "Egypt",
-   "count": 87
+   "count": 88
   },
   {
    "code": "YE",
@@ -39,14 +39,14 @@
    "count": 31
   },
   {
+   "code": "US",
+   "name": "United States",
+   "count": 24
+  },
+  {
    "code": "LB",
    "name": "Lebanon",
    "count": 21
-  },
-  {
-   "code": "US",
-   "name": "United States",
-   "count": 20
   },
   {
    "code": "DE",
@@ -109,6 +109,11 @@
    "count": 8
   },
   {
+   "code": "SE",
+   "name": "Sweden",
+   "count": 8
+  },
+  {
    "code": "SN",
    "name": "Senegal",
    "count": 8
@@ -116,11 +121,6 @@
   {
    "code": "AE",
    "name": "United Arab Emirates",
-   "count": 7
-  },
-  {
-   "code": "SE",
-   "name": "Sweden",
    "count": 7
   },
   {
@@ -224,6 +224,11 @@
    "count": 1
   },
   {
+   "code": "IE",
+   "name": "Ireland",
+   "count": 1
+  },
+  {
    "code": "IR",
    "name": "Iran",
    "count": 1
@@ -246,11 +251,6 @@
   {
    "code": "PL",
    "name": "Poland",
-   "count": 1
-  },
-  {
-   "code": "TG",
-   "name": "Togo",
    "count": 1
   }
  ]
