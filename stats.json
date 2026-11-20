@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-19T23:54Z",
- "total": 1298,
- "last28": 1298,
+ "updated": "2026-11-20T01:20Z",
+ "total": 1302,
+ "last28": 1302,
  "countries": [
   {
    "code": "SA",
    "name": "Saudi Arabia",
-   "count": 742
+   "count": 745
   },
   {
    "code": "EG",
@@ -199,6 +199,11 @@
    "count": 2
   },
   {
+   "code": "OM",
+   "name": "Oman",
+   "count": 2
+  },
+  {
    "code": "PS",
    "name": "Palestine",
    "count": 2
@@ -236,11 +241,6 @@
   {
    "code": "MR",
    "name": "Mauritania",
-   "count": 1
-  },
-  {
-   "code": "OM",
-   "name": "Oman",
    "count": 1
   },
   {
