@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-22T20:54Z",
- "total": 1456,
- "last28": 1456,
+ "updated": "2026-11-22T21:54Z",
+ "total": 1457,
+ "last28": 1457,
  "countries": [
   {
    "code": "SA",
@@ -59,14 +59,14 @@
    "count": 15
   },
   {
-   "code": "ID",
-   "name": "Indonesia",
+   "code": "GM",
+   "name": "Gambia",
    "count": 12
   },
   {
-   "code": "GM",
-   "name": "Gambia",
-   "count": 11
+   "code": "ID",
+   "name": "Indonesia",
+   "count": 12
   },
   {
    "code": "IQ",
