@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-22T08:58Z",
- "total": 1444,
- "last28": 1444,
+ "updated": "2026-11-22T14:07Z",
+ "total": 1449,
+ "last28": 1449,
  "countries": [
   {
    "code": "SA",
    "name": "Saudi Arabia",
-   "count": 838
+   "count": 839
   },
   {
    "code": "EG",
@@ -164,6 +164,11 @@
    "count": 4
   },
   {
+   "code": "PK",
+   "name": "Pakistan",
+   "count": 4
+  },
+  {
    "code": "SG",
    "name": "Singapore",
    "count": 4
@@ -246,11 +251,6 @@
   {
    "code": "LK",
    "name": "Sri Lanka",
-   "count": 1
-  },
-  {
-   "code": "ML",
-   "name": "Mali",
    "count": 1
   }
  ]
