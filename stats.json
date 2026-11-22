@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-22T05:08Z",
- "total": 1440,
- "last28": 1440,
+ "updated": "2026-11-22T07:23Z",
+ "total": 0,
+ "last28": 1442,
  "countries": [
   {
    "code": "SA",
@@ -31,7 +31,7 @@
   {
    "code": "MA",
    "name": "Morocco",
-   "count": 39
+   "count": 40
   },
   {
    "code": "DZ",
@@ -244,13 +244,13 @@
    "count": 1
   },
   {
-   "code": "ML",
-   "name": "Mali",
+   "code": "LK",
+   "name": "Sri Lanka",
    "count": 1
   },
   {
-   "code": "MR",
-   "name": "Mauritania",
+   "code": "ML",
+   "name": "Mali",
    "count": 1
   }
  ]
