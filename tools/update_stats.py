@@ -10,17 +10,26 @@ base = code if code.startswith("http") else f"https://{code}.goatcounter.com"
 end = (datetime.date.today() + datetime.timedelta(days=1)).isoformat()
 qs = f"start=2026-01-01&end={end}"
 
+import time
 def get(path):
-    req = urllib.request.Request(f"{base}/api/v0/{path}", headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.loads(r.read().decode())
+    # إعادة المحاولة 4 مرات عند انقطاع مؤقت في الشبكة أو الخادم
+    for i in range(4):
+        try:
+            req = urllib.request.Request(f"{base}/api/v0/{path}", headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return json.loads(r.read().decode())
+        except Exception as e:
+            if i == 3: raise
+            time.sleep(10 * (i + 1))
+
+failed = []
 
 total = 0
 try:
     t = get(f"stats/total?{qs}")
     total = int(t.get("total_unique") or t.get("total") or 0)
 except Exception as e:
-    print("total:", e)
+    print("total:", e); failed.append("total")
 
 last28 = 0
 try:
@@ -28,7 +37,7 @@ try:
     t = get(f"stats/total?start={s28}&end={end}")
     last28 = int(t.get("total_unique") or t.get("total") or 0)
 except Exception as e:
-    print("last28:", e)
+    print("last28:", e); failed.append("last28")
 
 countries = []
 try:
@@ -39,7 +48,11 @@ try:
         if cid and cnt and cid.lower() not in ("(unknown)", "unknown"):
             countries.append({"code": cid.split("-")[0].upper(), "name": s.get("name", ""), "count": cnt})
 except Exception as e:
-    print("locations:", e); sys.exit(1)
+    print("locations:", e); failed.append("locations")
+
+# عند تعذّر الجلب: نُبقي الإحصاءات السابقة كما هي ولا نُفشل المهمة (تُعاد المحاولة في الساعة التالية)
+if failed:
+    print("::warning::تعذّر جلب الإحصاءات مؤقتاً (" + "، ".join(failed) + ") — بقيت الإحصاءات السابقة"); sys.exit(0)
 
 # دمج الأقاليم في دولها
 merged = {}
