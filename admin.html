@@ -20,6 +20,17 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <script>if("serviceWorker" in navigator)addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){})})</script>
 <!-- PWA:END -->
+<!-- SPACE:START مؤشر مساحة المكتبة -->
+<style>
+#spacePanel .sp-bar{height:12px;border-radius:999px;background:var(--t-line,#e5e5e5);overflow:hidden;margin:10px 0 8px}
+#spacePanel .sp-bar i{display:block;height:100%;width:0;border-radius:inherit;background:var(--t-primary,#17365d);transition:width .6s}
+#spacePanel.warn .sp-bar i{background:var(--t-accent,#c9a45c)}
+#spacePanel.bad .sp-bar i{background:var(--danger)}
+#spacePanel .sp-num{display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px 14px;font-size:.92rem}
+#spacePanel .sp-num b{font-size:1.15rem}
+#spacePanel .sp-note{margin:8px 0 0;font-size:.86rem;color:var(--t-muted,#667)}
+</style>
+<!-- SPACE:END -->
 </head>
 <body class="admin">
 <div class="adm">
@@ -68,6 +79,16 @@
   </section>
 
   <!-- ٢) إضافة كتاب -->
+<!-- SPACE:START مؤشر مساحة المكتبة -->
+  <section class="panel" id="spacePanel" hidden>
+    <h2>مساحة المكتبة</h2>
+    <div class="sp-num"><span><b id="spUsed">—</b> مستخدمة من 1 جيجابايت</span><span id="spFree"></span></div>
+    <div class="sp-bar" role="progressbar" aria-label="المساحة المستخدمة" aria-valuemin="0" aria-valuemax="100" id="spBar"><i></i></div>
+    <div class="status" id="spaceStatus"></div>
+    <p class="sp-note">الحد المسموح للموقع 1 جيجابايت، والملف الواحد أقل من 100 ميجابايت. الرقم تقريبي، ويتحدّث بعد كل حفظ.</p>
+  </section>
+<!-- SPACE:END -->
+
   <section class="panel" id="addPanel">
     <h2><span class="n">٢</span> إضافة كتاب جديد</h2>
     <label class="field">
@@ -334,7 +355,7 @@ async function run(statusId, fn, okMsg) {
   if (!connected) return say(statusId, "err", "اتصل أولاً بإدخال المفتاح.");
   document.querySelectorAll("button").forEach((b) => (b.dataset.d = b.disabled, b.disabled = true));
   say(statusId, "info", "جارٍ الحفظ…");
-  try { await fn(); say(statusId, "ok", okMsg + " سيظهر التغيير في الموقع خلال دقيقة إلى ثلاث دقائق."); await loadLib(); }
+  try { await fn(); say(statusId, "ok", okMsg + " سيظهر التغيير في الموقع خلال دقيقة إلى ثلاث دقائق."); await loadLib(); refreshSpace(); }
   catch (e) { console.error(e); say(statusId, "err", explain(e)); try { await loadLib(); } catch (_) {} }
   finally { document.querySelectorAll("button").forEach((b) => (b.disabled = b.dataset.d === "true")); }
 }
@@ -380,6 +401,29 @@ async function imageToJpeg(file) {
 }
 
 // ===== الاتصال =====
+// ===== SPACE:START مؤشر مساحة المكتبة =====
+const SPACE_LIMIT = 1024 * 1048576, SPACE_WARN = 800 * 1048576, SPACE_BAD = 950 * 1048576;
+let spaceBytes = 0;
+const spMB = (n) => n >= 1073741824 ? (n / 1073741824).toFixed(2) + " جيجابايت" : Math.max(1, Math.round(n / 1048576)) + " ميجابايت";
+async function refreshSpace() {
+  try {
+    const tree = await gh("GET", "/git/trees/" + encodeURIComponent(branch) + "?recursive=1");
+    spaceBytes = (tree.tree || []).reduce((s, x) => s + (x.type === "blob" ? x.size || 0 : 0), 0);
+    const pct = Math.min(100, spaceBytes / SPACE_LIMIT * 100), box = $("spacePanel");
+    box.hidden = false;
+    $("spUsed").textContent = spMB(spaceBytes) + " (" + Math.round(pct) + "٪)";
+    $("spFree").textContent = "المتبقي تقريباً: " + spMB(Math.max(0, SPACE_LIMIT - spaceBytes));
+    $("spBar").querySelector("i").style.width = pct.toFixed(1) + "%";
+    $("spBar").setAttribute("aria-valuenow", String(Math.round(pct)));
+    box.classList.toggle("warn", spaceBytes >= SPACE_WARN && spaceBytes < SPACE_BAD);
+    box.classList.toggle("bad", spaceBytes >= SPACE_BAD);
+    if (spaceBytes >= SPACE_BAD) say("spaceStatus", "err", "المساحة قاربت على الامتلاء. تواصل مع المصمم قبل إضافة كتب جديدة لنقل الملفات الكبيرة إلى مكان مجاني آخر دون أي تغيير في الموقع.");
+    else if (spaceBytes >= SPACE_WARN) say("spaceStatus", "info", "تجاوزت المكتبة 800 ميجابايت. الموقع يعمل طبيعياً، لكن يُفضّل التواصل مع المصمم للتخطيط للتوسعة.");
+    else hush("spaceStatus");
+  } catch (e) { /* المؤشر اختياري: لا يعطّل اللوحة إذا تعذّر */ }
+}
+// ===== SPACE:END =====
+
 async function connect() {
   if (!$("token").value.trim()) { $("connText").textContent = "أدخل المفتاح"; return; }
   say("connStatus", "info", "جارٍ الاتصال…");
@@ -387,6 +431,7 @@ async function connect() {
     const repo = await gh("GET", "");
     if (repo.permissions && !repo.permissions.push) throw Object.assign(new Error("no push"), { status: 403 });
     branch = repo.default_branch || "main";
+    refreshSpace();
     connected = true; $("dot").className = "dot on"; $("connText").textContent = "متصل بـ " + repo.full_name;
     hush("connStatus");
     await loadLib();
@@ -424,6 +469,7 @@ $("publish").onclick = async () => {
   if (!connected) return say("addStatus", "err", "اتصل أولاً بإدخال المفتاح في الخطوة ١.");
   if (!title) return say("addStatus", "err", "اكتب اسم الكتاب.");
   if (!pdfFile) return say("addStatus", "err", "اختر ملف الكتاب (PDF).");
+  if (spaceBytes && spaceBytes + pdfFile.size > SPACE_LIMIT) return say("addStatus", "err", "لا توجد مساحة كافية لهذا الكتاب (المستخدم " + spMB(spaceBytes) + " من 1 جيجابايت). تواصل مع المصمم لتوسعة المساحة.");
   if (pdfFile.size > 95 * 1048576) return say("addStatus", "err", "حجم الملف أكبر من 95 ميجابايت. يجب ضغطه أولاً قبل رفعه.");
 
   const prog = $("prog"), bar = prog.firstElementChild;
