@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-24T05:19Z",
- "total": 1473,
- "last28": 1473,
+ "updated": "2026-11-24T07:32Z",
+ "total": 1477,
+ "last28": 1477,
  "countries": [
   {
    "code": "SA",
    "name": "Saudi Arabia",
-   "count": 862
+   "count": 863
   },
   {
    "code": "EG",
@@ -21,7 +21,7 @@
   {
    "code": "SO",
    "name": "Somalia",
-   "count": 50
+   "count": 51
   },
   {
    "code": "KW",
@@ -219,6 +219,11 @@
    "count": 2
   },
   {
+   "code": "SD",
+   "name": "Sudan",
+   "count": 2
+  },
+  {
    "code": "GB",
    "name": "United Kingdom",
    "count": 1
@@ -246,11 +251,6 @@
   {
    "code": "JO",
    "name": "Hashemite Kingdom of Jordan",
-   "count": 1
-  },
-  {
-   "code": "LK",
-   "name": "Sri Lanka",
    "count": 1
   }
  ]
