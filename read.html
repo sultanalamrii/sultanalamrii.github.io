@@ -1109,13 +1109,15 @@ function wsTheme() { // متغيرات الهوية --t-* أولاً، ثم مت
     accent: v("--t-highlight", "--t-accent", "--gold-2"), bg: v("--t-bg", "--paper"), ink: v("--t-ink", "--ink"),
   };
   t.light = !!(data.site.theme && data.site.theme.light) || wsLum(t.primary) > 0.45;
+  // بطاقة الحالة بخلفية سماوية غامقة حتى في الهوية الفاتحة (أوضح على الواتس): تدرّج من الأساسي إلى لون النص الغامق
+  if (t.light && t.ink && wsLum(t.ink) < 0.2) { t.light = false; t.deep = t.ink; t.bg = "#ffffff"; if (wsLum(t.accent) < 0.35) t.accent = "#BAE6FD"; }
   t.fg = t.light ? t.ink : t.bg;                      // لون النص الرئيسي
   t.ac = t.light ? (wsLum(t.accent) > 0.45 ? t.primary : t.accent) : t.accent; // لون الخطوط والمؤلف
   return t;
 }
 function wsLines(ctx, text, maxW) { // تقسيم سطر عربي على كلمات
   const out = []; let line = "";
-  String(text).split(/\s+/).forEach((w) => { const t = line ? line + " " + w : w; if (line && ctx.measureText(t).width > maxW) { out.push(line); line = w; } else line = t; });
+  String(text).split(/[ \t\n]+/).forEach((w) => { const t = line ? line + " " + w : w; if (line && ctx.measureText(t).width > maxW) { out.push(line); line = w; } else line = t; });
   if (line) out.push(line); return out;
 }
 async function wsDraw(p) {
@@ -1133,16 +1135,22 @@ async function wsDraw(p) {
   for (let yy = 18, r = 0; yy < H; yy += 36, r++) for (let xx = (r % 2 ? 36 : 18); xx < W; xx += 36) { x.beginPath(); x.arc(xx, yy, 2.2, 0, 7); x.fill(); }
   // فوق: اليوم بين خطين، ثم الهجري، ثم الميلادي
   const day = new Intl.DateTimeFormat("ar-SA", { weekday: "long" }).format(now);
-  x.font = '600 40px "Plex", sans-serif'; x.fillStyle = t.ac; x.fillText(day, CX, 170);
+  x.font = '600 36px "Plex", sans-serif'; x.fillStyle = t.ac; x.fillText(day, CX, 96);
   const dw = x.measureText(day).width / 2 + 28; x.strokeStyle = t.ac; x.lineWidth = 2.5; x.lineCap = "round";
-  x.beginPath(); x.moveTo(CX - dw, 156); x.lineTo(CX - dw - 120, 156); x.moveTo(CX + dw, 156); x.lineTo(CX + dw + 120, 156); x.stroke();
+  x.beginPath(); x.moveTo(CX - dw, 84); x.lineTo(CX - dw - 120, 84); x.moveTo(CX + dw, 84); x.lineTo(CX + dw + 120, 84); x.stroke();
   const hij = new Intl.DateTimeFormat("ar-SA-u-ca-islamic-umalqura-nu-arab", { day: "numeric", month: "long", year: "numeric" }).format(now).replace(/\s*هـ\s*$/, "") + " هـ";
-  x.font = '700 82px "Amiri", serif'; x.fillStyle = t.fg; x.fillText(hij, CX, 282);
+  x.font = '700 64px "Amiri", serif'; x.fillStyle = t.fg; x.fillText(hij, CX, 182);
   const gre = new Intl.DateTimeFormat("ar-SA-u-ca-gregory-nu-arab", { day: "numeric", month: "long", year: "numeric" }).format(now).replace(/\s*م\s*$/, "") + " م";
-  x.font = '500 34px "Plex", sans-serif'; x.fillStyle = wsA(t.fg, 0.75); x.fillText(gre, CX, 348);
+  x.font = '500 30px "Plex", sans-serif'; x.fillStyle = wsA(t.fg, 0.8); x.fillText(gre, CX, 234);
   // الوسط: الصفحة بدقة عالية مع كتابات القارئ
   const page = await pdf.getPage(p), r0 = RATIO;
-  const top = 420, bot = 1460, maxW = 860, maxH = bot - top;
+  // أسفل البطاقة يُحسب أولاً (العنوان سطر أو سطران)، والصفحة تاخذ كل المساحة الباقية بأكبر حجم ممكن
+  x.direction = "rtl"; x.font = '700 44px "Amiri", serif';
+  const tail = "\u00A0•\u00A0صفحة\u00A0" + ar(p); // مسافات غير قابلة للكسر: «• صفحة N» تبقى مع آخر كلمة من العنوان
+  let words = book.title.split(/\s+/), lines = wsLines(x, book.title + tail, 900);
+  while (lines.length > 2 && words.length > 1) { words.pop(); lines = wsLines(x, words.join(" ") + "…" + tail, 900); }
+  const FL = H - 104, nameY = FL - 60, titleLast = nameY - 88, titleFirst = titleLast - (lines.length - 1) * 62;
+  const top = 280, bot = titleFirst - 82, maxW = 1000, maxH = bot - top;
   let pw = maxW, ph = pw / r0; if (ph > maxH) { ph = maxH; pw = ph * r0; }
   const px = Math.round(CX - pw / 2), py = Math.round(top + (maxH - ph) / 2);
   const off = document.createElement("canvas"), ow = Math.round(Math.min(pw * 1.6, 2200)); // أدق من مقاس الرسم لتبقى الحروف حادة
@@ -1155,30 +1163,28 @@ async function wsDraw(p) {
   x.imageSmoothingEnabled = true; x.imageSmoothingQuality = "high"; x.drawImage(off, px, py, pw, ph);
   // تحت: اسم الكتاب • صفحة N، ثم المؤلف
   x.direction = "rtl"; x.textAlign = "center";
-  const tail = " • صفحة " + ar(p);
-  x.font = '700 50px "Amiri", serif'; x.fillStyle = t.fg;
-  let words = book.title.split(/\s+/), lines = wsLines(x, book.title + tail, 920);
-  while (lines.length > 2 && words.length > 1) { words.pop(); lines = wsLines(x, words.join(" ") + "…" + tail, 920); }
-  let ty = py + ph + 16 + 84;
-  lines.forEach((ln) => { x.fillText(ln, CX, ty); ty += 80; });
+  x.font = '700 44px "Amiri", serif'; x.fillStyle = t.fg;
+  let ty = titleFirst;
+  lines.forEach((ln) => { x.fillText(ln, CX, ty); ty += 62; });
+  ty = nameY;
   const who = data.site.brandSub || data.site.author || "";
   if (data.site.nameArt) {
     try {
       const img = await new Promise((ok, no) => { const i = new Image(); i.onload = () => ok(i); i.onerror = no; i.src = data.site.nameArt; });
-      const h = 72, w = h * img.width / img.height, k = document.createElement("canvas"); k.width = Math.round(w * 2); k.height = h * 2;
+      const h = 64, w = h * img.width / img.height, k = document.createElement("canvas"); k.width = Math.round(w * 2); k.height = h * 2;
       const kc = k.getContext("2d"); kc.drawImage(img, 0, 0, k.width, k.height); kc.globalCompositeOperation = "source-in"; kc.fillStyle = t.ac; kc.fillRect(0, 0, k.width, k.height);
-      x.drawImage(k, CX - w / 2, ty - 48, w, h);
+      x.drawImage(k, CX - w / 2, ty - 44, w, h);
     } catch (e) { x.font = '500 34px "Plex", sans-serif'; x.fillStyle = t.ac; x.fillText(who, CX, ty - 14); }
   } else if (who) { x.font = '500 34px "Plex", sans-serif'; x.fillStyle = t.ac; x.fillText(who, CX, ty - 14); }
   // أسفل: خط فاصل + «اقرأ الكتاب كاملاً في …»
-  x.strokeStyle = wsA(t.fg, 0.22); x.lineWidth = 2; x.beginPath(); x.moveTo(200, 1772); x.lineTo(W - 200, 1772); x.stroke();
-  x.fillStyle = t.ac; x.beginPath(); x.moveTo(CX, 1762); x.lineTo(CX + 10, 1772); x.lineTo(CX, 1782); x.lineTo(CX - 10, 1772); x.fill();
+  x.strokeStyle = wsA(t.fg, 0.25); x.lineWidth = 2; x.beginPath(); x.moveTo(200, FL); x.lineTo(W - 200, FL); x.stroke();
+  x.fillStyle = t.ac; x.beginPath(); x.moveTo(CX, FL - 10); x.lineTo(CX + 10, FL); x.lineTo(CX, FL + 10); x.lineTo(CX - 10, FL); x.fill();
   const lead = "اقرأ الكتاب كاملاً في ", brand = data.site.brandTitle || data.site.title || "المكتبة";
   x.font = '400 32px "Plex", sans-serif'; const w1 = x.measureText(lead).width;
   x.font = '600 32px "Plex", sans-serif'; const w2 = x.measureText(brand).width;
   const R = CX + (w1 + w2) / 2; x.textAlign = "right";
-  x.font = '400 32px "Plex", sans-serif'; x.fillStyle = wsA(t.fg, 0.85); x.fillText(lead, R, 1846);
-  x.font = '600 32px "Plex", sans-serif'; x.fillStyle = t.ac; x.fillText(brand, R - w1, 1846);
+  x.font = '400 32px "Plex", sans-serif'; x.fillStyle = wsA(t.fg, 0.85); x.fillText(lead, R, FL + 66);
+  x.font = '600 32px "Plex", sans-serif'; x.fillStyle = t.ac; x.fillText(brand, R - w1, FL + 66);
   return c;
 }
 let wsBlob = null, wsP = 0, wsTok = 0;
