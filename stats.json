@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-25T09:24Z",
- "total": 1511,
- "last28": 1511,
+ "updated": "2026-11-25T11:09Z",
+ "total": 1513,
+ "last28": 1513,
  "countries": [
   {
    "code": "SA",
@@ -46,7 +46,7 @@
   {
    "code": "DE",
    "name": "Germany",
-   "count": 21
+   "count": 22
   },
   {
    "code": "LB",
@@ -129,6 +129,11 @@
    "count": 8
   },
   {
+   "code": "NG",
+   "name": "Nigeria",
+   "count": 7
+  },
+  {
    "code": "GW",
    "name": "Guinea-Bissau",
    "count": 6
@@ -136,11 +141,6 @@
   {
    "code": "IN",
    "name": "India",
-   "count": 6
-  },
-  {
-   "code": "NG",
-   "name": "Nigeria",
    "count": 6
   },
   {
