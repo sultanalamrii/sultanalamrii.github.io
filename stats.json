@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-26T15:15Z",
- "total": 1527,
- "last28": 1470,
+ "updated": "2026-11-26T16:22Z",
+ "total": 1530,
+ "last28": 1473,
  "countries": [
   {
    "code": "SA",
@@ -74,6 +74,11 @@
    "count": 11
   },
   {
+   "code": "AZ",
+   "name": "Azerbaijan",
+   "count": 10
+  },
+  {
    "code": "FR",
    "name": "France",
    "count": 10
@@ -102,11 +107,6 @@
    "code": "PH",
    "name": "Philippines",
    "count": 9
-  },
-  {
-   "code": "AZ",
-   "name": "Azerbaijan",
-   "count": 8
   },
   {
    "code": "KZ",
@@ -149,6 +149,11 @@
    "count": 5
   },
   {
+   "code": "PK",
+   "name": "Pakistan",
+   "count": 5
+  },
+  {
    "code": "CI",
    "name": "Ivory Coast",
    "count": 4
@@ -161,11 +166,6 @@
   {
    "code": "NL",
    "name": "Netherlands",
-   "count": 4
-  },
-  {
-   "code": "PK",
-   "name": "Pakistan",
    "count": 4
   },
   {
