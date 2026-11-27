@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-27T18:00Z",
- "total": 1555,
- "last28": 1362,
+ "updated": "2026-11-27T19:11Z",
+ "total": 1557,
+ "last28": 1364,
  "countries": [
   {
    "code": "SA",
    "name": "Saudi Arabia",
-   "count": 914
+   "count": 915
   },
   {
    "code": "EG",
@@ -74,6 +74,11 @@
    "count": 11
   },
   {
+   "code": "SE",
+   "name": "Sweden",
+   "count": 11
+  },
+  {
    "code": "AZ",
    "name": "Azerbaijan",
    "count": 10
@@ -86,11 +91,6 @@
   {
    "code": "MV",
    "name": "Maldives",
-   "count": 10
-  },
-  {
-   "code": "SE",
-   "name": "Sweden",
    "count": 10
   },
   {
