@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-27T13:29Z",
- "total": 1547,
- "last28": 1354,
+ "updated": "2026-11-27T15:09Z",
+ "total": 1549,
+ "last28": 1356,
  "countries": [
   {
    "code": "SA",
@@ -21,7 +21,7 @@
   {
    "code": "SO",
    "name": "Somalia",
-   "count": 55
+   "count": 56
   },
   {
    "code": "KW",
@@ -129,14 +129,14 @@
    "count": 8
   },
   {
-   "code": "NG",
-   "name": "Nigeria",
+   "code": "GW",
+   "name": "Guinea-Bissau",
    "count": 7
   },
   {
-   "code": "GW",
-   "name": "Guinea-Bissau",
-   "count": 6
+   "code": "NG",
+   "name": "Nigeria",
+   "count": 7
   },
   {
    "code": "IN",
