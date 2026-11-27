@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-27T20:09Z",
- "total": 1558,
- "last28": 1365,
+ "updated": "2026-11-27T21:07Z",
+ "total": 1563,
+ "last28": 1370,
  "countries": [
   {
    "code": "SA",
    "name": "Saudi Arabia",
-   "count": 916
+   "count": 919
   },
   {
    "code": "EG",
@@ -21,7 +21,7 @@
   {
    "code": "SO",
    "name": "Somalia",
-   "count": 56
+   "count": 57
   },
   {
    "code": "KW",
@@ -144,13 +144,13 @@
    "count": 6
   },
   {
-   "code": "BD",
-   "name": "Bangladesh",
-   "count": 5
-  },
-  {
    "code": "PK",
    "name": "Pakistan",
+   "count": 6
+  },
+  {
+   "code": "BD",
+   "name": "Bangladesh",
    "count": 5
   },
   {
