@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-28T15:02Z",
- "total": 1588,
- "last28": 1374,
+ "updated": "2026-11-28T15:58Z",
+ "total": 1591,
+ "last28": 1377,
  "countries": [
   {
    "code": "SA",
    "name": "Saudi Arabia",
-   "count": 932
+   "count": 934
   },
   {
    "code": "EG",
@@ -54,14 +54,14 @@
    "count": 21
   },
   {
-   "code": "SY",
-   "name": "Syria",
+   "code": "GM",
+   "name": "Gambia",
    "count": 15
   },
   {
-   "code": "GM",
-   "name": "Gambia",
-   "count": 14
+   "code": "SY",
+   "name": "Syria",
+   "count": 15
   },
   {
    "code": "AZ",
