@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-28T05:13Z",
- "total": 1570,
- "last28": 1356,
+ "updated": "2026-11-28T06:12Z",
+ "total": 1571,
+ "last28": 1357,
  "countries": [
   {
    "code": "SA",
@@ -16,7 +16,7 @@
   {
    "code": "YE",
    "name": "Yemen",
-   "count": 61
+   "count": 62
   },
   {
    "code": "SO",
