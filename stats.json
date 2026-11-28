@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-28T07:29Z",
- "total": 1572,
- "last28": 1358,
+ "updated": "2026-11-28T09:02Z",
+ "total": 1576,
+ "last28": 1362,
  "countries": [
   {
    "code": "SA",
@@ -29,14 +29,14 @@
    "count": 45
   },
   {
-   "code": "MA",
-   "name": "Morocco",
+   "code": "DZ",
+   "name": "Algeria",
    "count": 40
   },
   {
-   "code": "DZ",
-   "name": "Algeria",
-   "count": 36
+   "code": "MA",
+   "name": "Morocco",
+   "count": 40
   },
   {
    "code": "US",
