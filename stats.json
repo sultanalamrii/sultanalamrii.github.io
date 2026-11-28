@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-28T06:12Z",
- "total": 1571,
- "last28": 1357,
+ "updated": "2026-11-28T07:29Z",
+ "total": 1572,
+ "last28": 1358,
  "countries": [
   {
    "code": "SA",
@@ -61,7 +61,7 @@
   {
    "code": "GM",
    "name": "Gambia",
-   "count": 13
+   "count": 14
   },
   {
    "code": "ID",
